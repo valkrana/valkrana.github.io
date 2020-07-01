@@ -1,5 +1,7 @@
 body {
-    background-image: linear-gradient(#3a2251, #8b1ef6);
+    background-image: linear-gradient(to left, #3a2251, #8b1ef6);
+    height: 100%;
+    overflow: hidden;
 }
 
 .baton {
@@ -20,7 +22,7 @@ body {
     position:relative;
 }
 
-.h1 {
+h1 {
 	font-family: "Cormorant Unicase";
 	font-size: 3em;
 	padding-top: 0px;
@@ -29,4 +31,24 @@ body {
 	line-height: 0.8;
 	letter-spacing: 2px;
 	color: #FFFFFF;
+}
+
+h2 {
+	padding-bottom: 10px;
+	font-family: "Raleway";
+    font-style: italic;
+	font-size: .7em;
+	padding-top: 0px;
+	margin: 0 auto;
+	color: rgb(177, 177, 177);
+}
+
+a {
+    text-decoration: none;
+    color: #dd872a;
+}
+
+#footer {
+    bottom: 0;
+    position: absolute;
 }
