@@ -31,11 +31,12 @@
 
 #sheet_container {
 	width:80%;
+	float:right;
 	border:1px solid rgba(18, 19, 20, 0.15);
 	padding:2px;
 	box-sizing:border-box;
 	z-index:2;
-	display: inline-block;
+	/*display: inline-block;*/
  	vertical-align: middle;
 }
 
@@ -226,11 +227,8 @@ input[type='checkbox'] {
 
 /* Mobile */
 @media only screen and (max-device-width: 736px) {
-  div.col-lg-6 {
-   margin:0 auto !important;
-  }
-  div.col-lg-6 {
-   margin:0 auto !important;
+  div.sheet_container {
+	float: center !important;
   }
 }
 
