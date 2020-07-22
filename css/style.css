@@ -225,6 +225,15 @@ input[type='checkbox'] {
 }
 
 /* Mobile */
+@media only screen and (max-device-width: 736px) {
+  div.col-lg-6 {
+   margin:0 auto !important;
+  }
+  div.col-lg-6 {
+   margin:0 auto !important;
+  }
+}
+
 @viewport {
 	width: device-width;
 	zoom: 1.0;
