@@ -13,7 +13,18 @@
 	width: 100%;
 	background-color: #ece6d8;
 	margin: 0;
-	  	display: flex;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	/*background-repeat: repeat;
+	background: url('../img/pattern.png');*/
+}
+
+#CharSheet2 {
+	width: 100%;
+	background-color: #181818;
+	margin: 0;
+	display: flex;
   	justify-content: center;
   	align-items: center;
 	/*background-repeat: repeat;
@@ -31,7 +42,8 @@
 
 #sheet_container {
 	width:80%;
-	float:right;
+	margin: 0 auto;
+	/*float:right;*/
 	border:1px solid rgba(18, 19, 20, 0.15);
 	padding:2px;
 	box-sizing:border-box;
@@ -226,12 +238,6 @@ input[type='checkbox'] {
 }
 
 /* Mobile */
-@media only screen and (max-device-width: 736px) {
-  div.sheet_container {
-	float: center !important;
-  }
-}
-
 @viewport {
 	width: device-width;
 	zoom: 1.0;
