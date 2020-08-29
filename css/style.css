@@ -16,8 +16,25 @@
 	display: flex;
   	justify-content: center;
   	align-items: center;
-	/*background-repeat: repeat;
-	background: url('../img/pattern.png');*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../img/valk_bg.png');
+}
+
+#CharSheet .charright {
+	width: 95%;
+	text-align:right;
+	float:right;
+	color:#ece6d8;
+	font-family: "Source Sans Pro";
+	font-weight:600;
+	font-size: 1.0em;
+	font-style: italic;
+	margin-top: -5px;
+	letter-spacing: 2px;
+	line-height: 1.6;
+	padding: 5px 5px 5px 5px;
+	text-shadow: 1px 1px black;
 }
 
 #CharSheet2 {
@@ -41,6 +58,7 @@
 }
 
 #sheet_container {
+	background: rgba(236, 230, 216, 0.8);
 	width:80%;
 	margin: 0 auto;
 	/*float:right;*/
@@ -238,6 +256,12 @@ input[type='checkbox'] {
 }
 
 /* Mobile */
+@media only screen and (max-device-width: 736px) {
+  div.sheet_container {
+	margin:auto !important;
+  }
+}
+
 @viewport {
 	width: device-width;
 	zoom: 1.0;
