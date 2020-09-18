@@ -200,7 +200,7 @@ body {
 }
 
 /* Blockquote */
-blockquote {
+blockquote.main {
 	background: #1d1d1d;
 	border-left: 10px solid #dd872a;
 	margin: 1.5em 10px;
