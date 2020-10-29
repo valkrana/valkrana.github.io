@@ -163,6 +163,44 @@ body {
 	color:#dd872a;
 }
 
+#Content p {
+	font-family: "Source Sans Pro";
+	color: rgb(226, 226, 226);
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	line-height: 1.3;
+	margin-top: 5px;
+	text-indent: 0.5em;
+}
+
+/* Relationship Text */
+#Content p.kin {
+	line-height: 1.5em;
+	margin: 0px;
+	padding-top: 5px;
+	text-indent: 0.0em;
+}
+
+#Content p.kin::before {
+	content: "⛆ "
+}
+
+/* Trivia Text */
+#Content p.flush {
+	line-height: 1.5em;
+	margin: 0px;
+	padding-top: 5px;
+	text-indent: 0.1em;
+}
+
+#Content p.flush:nth-child(even) {
+	color: rgb(141, 141, 141);
+}
+
+#Content p.flush::before {
+	content: "⛆ "
+}
+
 /* Large, Colored Text */
 #Content h1 {
 	font-family: "Cormorant Unicase";
@@ -179,11 +217,12 @@ body {
 #Content h2 {
 	font-family: "Source Sans Pro";
 	color: rgb(226, 226, 226);
-	font-size: 0.9em;
+	font-size: 1em;
 	letter-spacing: 1px;
-	line-height: 1.3;
-	margin-top: 5px;
-	text-indent: 0.5em;
+	text-indent: 0.0em;
+	line-height: 1.0;
+	margin: 0px;
+	padding-top: 3px;
 }
 
 /* Subtitle Text */
@@ -207,6 +246,13 @@ blockquote.main {
 	font-size: 1.0em;
 	padding: 0.5em 10px;
   }
+
+/* Horizontal Rule */
+hr.boyhowdy {
+	border-top: 1px solid #864a0a;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
 
 /* Collapse */
 input[type='checkbox'] {
