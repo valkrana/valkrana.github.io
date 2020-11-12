@@ -1,9 +1,57 @@
 /* Buffer */
 #Buffer {
 	width: 100%;
-	margin: 0;
+	margin: 0 auto;
 	background-color: #dd872a;
 }
+
+#Buffer .left {
+	width:50%;
+	text-align:left;
+	float:left;
+	font-family: "MS Gothic";
+	font-size:13px;
+	color:#000000;
+	letter-spacing:1px;
+	padding: 0px;
+	background-color: #dd872a;
+}
+
+#Buffer .right {
+	width: 50%;
+	text-align:right;
+	float:right;
+	font-family: "MS Gothic";
+	font-size:13px;
+	color:#000000;
+	letter-spacing:1px;
+	padding: 0px;
+	background-color: #dd872a;
+}
+
+.baton {
+    background-color: #181818;
+    display:inline-block;
+    padding:0.2em 1em;
+    margin:0;
+    border-radius:0.5em;
+    border: none;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: "Caladea";
+    font-variant: small-caps;
+    color:#FFFFFF;
+    box-shadow:inset 0 -0.6em 0 -0.15em rgba(214, 214, 214, 0.17);
+    text-align:center;
+    position:relative;
+    cursor:pointer;
+	outline: none;
+}
+
+.baton:active {
+  transform: translateY(2px);
+}
+
 
 /* ----- */
 /* Sheet */
