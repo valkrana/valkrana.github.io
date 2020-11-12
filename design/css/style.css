@@ -66,15 +66,16 @@ body {
 }
 
 #Content h3 {
-	font-family: "Caladea";
-	color: #dddddd;
-	font-size: 0.9em;
-	font-style: italic;
-	margin: 0px 50px 50px 50px;
+	font-family: "Baskerville";
+	color: #fc49b2;
+	font-size: 1.4em;
+	margin-top: 0px;
+	padding-top: 10px;
 	letter-spacing: 2px;
-	line-height: 1.6;
-	padding-bottom: 0;
-	padding-left: 0px;
+	line-height: 1.3;
+	margin-bottom: 0;
+	display: inline-block;
+	font-variant: small-caps;
 }
 
 
@@ -191,6 +192,12 @@ table {
 /* Horizontal Rule */
 hr.girlhowdy {
 	border-top: 1px solid #00ccff;
+	margin: 5px 0px 10px 0px;
+}
+
+/* Horizontal Rule */
+hr.girlhowdyc {
+	border-top: 1px solid #fc49b2;
 	margin: 5px 0px 10px 0px;
 }
 
