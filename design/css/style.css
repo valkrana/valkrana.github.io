@@ -208,10 +208,8 @@ hr.boyhowdy {
 
 /* Footer */
 .footer {
-	position: fixed;
 	left: 0;
 	bottom: 0;
-	background-color: #ebd8c4;
 	width: 100%;
 	height: 35px;
 }
