@@ -24,6 +24,7 @@ body {
 	background-color: #181818;
 	/*background-image: url("../img/scanline.png");
 	background-repeat: repeat;*/
+	overflow: hidden;
 }
 
 #Content {
@@ -33,6 +34,7 @@ body {
 	/*background-image: url("../img/scanline.png");
 	background-repeat: repeat;*/
 	background-color: #181818;
+	overflow: hidden;
 }
 
 #Content a {
@@ -68,6 +70,19 @@ body {
 #Content h3 {
 	font-family: "Baskerville";
 	color: #fc49b2;
+	font-size: 1.4em;
+	margin-top: 0px;
+	padding-top: 10px;
+	letter-spacing: 2px;
+	line-height: 1.3;
+	margin-bottom: 0;
+	display: inline-block;
+	font-variant: small-caps;
+}
+
+#Content h4 {
+	font-family: "Baskerville";
+	color: #b6b6b6;
 	font-size: 1.4em;
 	margin-top: 0px;
 	padding-top: 10px;
@@ -201,11 +216,41 @@ hr.girlhowdyc {
 	margin: 5px 0px 10px 0px;
 }
 
+/* Horizontal Rule */
+hr.girlhowdyr {
+	border-top: 1px solid red;
+	margin: 5px 0px 10px 0px;
+}
+
 hr.boyhowdy {
 	border-top: 1px solid #cccccc;
 	margin: 20px 0px 10px 0px;
 }
 
+/* Spoiler */
+
+#spoiler img {
+	filter: blur(20px);
+	transition-property: -webkit-filter;
+	transition-duration: .4s;
+	overflow: hidden;
+}
+
+#spoiler img:hover, #spoiler img:focus {
+	filter: blur(0px);
+	overflow: hidden;
+}
+
+/*
+.img-fluid-spoiler {
+	filter: blur(20px);
+	transition-property: -webkit-filter;
+	transition-duration: .4s;
+}
+.img-fluid-spoiler:hover, .img-fluid-spoiler:focus {
+	filter: blur(0px);
+}
+*/
 /* Footer */
 .footer {
 	left: 0;
