@@ -17,6 +17,10 @@ body {
 	background-repeat: repeat;*/
 }
 
+figure { 
+    display: inline-block;
+}
+
 #container {
 	margin: 0 auto;
 	width: 70%;
@@ -25,6 +29,7 @@ body {
 	/*background-image: url("../img/scanline.png");
 	background-repeat: repeat;*/
 	overflow: hidden;
+		
 }
 
 #Content {
@@ -163,7 +168,7 @@ table {
 /* Image */
 
 .center {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
 }
