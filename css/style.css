@@ -64,9 +64,12 @@
 	display: flex;
   	justify-content: center;
   	align-items: center;
-	background-repeat: no-repeat;
+	background-image: linear-gradient(to bottom, #00ccff, #007997);
+	/*background-image: linear-gradient(to bottom, #46a9bb, #6cbfce);
+	/*background-image: linear-gradient(to bottom, #3a2251, #8b1ef6);
+	/*background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url('../img/valk_bg.png');
+	background-image: url('../img/valk_bg.png');*/
 }
 
 #CharSheet .charright {
