@@ -1,0 +1,187 @@
+/* Buffer */
+#Buffer {
+	width: 100%;
+	margin: 0;
+	background-color: #fc49b2;
+}
+
+/* ----- */
+/* -Bdy- */
+/* ----- */
+body {
+	left: 0;
+	top: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+img {
+	align-self: baseline;
+}
+
+.flex-container {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	list-style: none;
+}
+
+.flex-container-nowrap {
+	padding: 10px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	list-style: none;
+}
+
+.flex-item {
+	width: 30%;
+	padding: 10px;
+}
+
+.flex-item-50 {
+	width: 45%;
+}
+
+.flex-item-100 {
+	width: 100%;
+	/*padding: 20px;*/
+}
+
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+#Content {
+	width:100%;
+	height:100%;
+	margin: auto 0;
+	top: 0;
+	left: 0;
+	background-color: #ebd8c4;
+}
+
+#Content a {
+	color:#fc49b2;
+}
+
+/* Large, Colored Text */
+#Content h1 {
+	font-family: "Baskerville";
+	color: #fc49b2;
+	font-size: 1.7em;
+	margin-top: 0px;
+	letter-spacing: 2px;
+	line-height: 1.3;
+	margin-bottom: 0;
+	display: inline-block;
+	font-variant: small-caps;
+}
+
+#Content h2 {
+	font-family: "Baskerville";
+	color: #fc49b2;
+	font-size: 1.4em;
+	margin-top: 0px;
+	padding-top: 10px;
+	letter-spacing: 2px;
+	line-height: 1.3;
+	margin-bottom: 0;
+	display: inline-block;
+	font-variant: small-caps;
+}
+
+#Content h3 {
+	font-family: "Caladea";
+	color: #181818;
+	font-size: 0.9em;
+	font-style: italic;
+	margin: 0px 50px 50px 50px;
+	letter-spacing: 2px;
+	line-height: 1.6;
+	padding-bottom: 0;
+	padding-left: 0px;
+}
+
+
+/* Content Text */
+#Content p {
+	font-family: "Caladea";
+	color: #181818;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	text-indent: 1.0em;
+	padding: 0px;
+	margin: 0px;
+}
+
+#Content p span {
+	font-variant:small-caps;
+	font-size: 1.1em;
+}
+
+#Content p.padbot {
+	padding-bottom: 1.0em;
+	text-indent:0em;
+	margin: 0px;
+}
+
+#Content p.noindent {
+	text-indent: 0em;
+}
+
+
+/* Blockquote */
+#Content p.quote {
+	margin: 15px 15px 0px 0px;
+	padding: 5px 5px 10px 10px;
+	border-top: 2px solid rgb(29, 29, 29);
+	border-bottom: 2px solid rgb(29, 29, 29);
+	page-break-inside: avoid;
+	background-color: #fdadb8;
+	box-shadow: 3px 3px 3px rgba(190, 190, 190, 0.8);
+	text-indent: 0em;
+}
+
+/* Horizontal Rule */
+hr.boyhowdy {
+	border-top: 1px solid #fdadb8;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+
+/* Footer */
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: #ebd8c4;
+	width: 100%;
+	height: 35px;
+}
+
+p.footer {
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px !important;
+}
+
+/* Mobile */
+@media only screen and (max-width: 736px) {
+	.flex-container {
+	margin:auto !important;
+	flex-direction: column;
+	}
+
+	.flex-item {
+	width: 100%;
+}
+
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
