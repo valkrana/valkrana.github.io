@@ -52,6 +52,19 @@
   transform: translateY(2px);
 }
 
+.flex-container {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	list-style: none;
+}
+
+.flex-item {
+	width: 25%;
+	padding: 10px;
+}
+
 
 /* ----- */
 /* Sheet */
