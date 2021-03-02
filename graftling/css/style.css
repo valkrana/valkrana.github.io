@@ -1,28 +1,61 @@
-/* Buffer */
-#Buffer {
-	width: 100%;
-	margin: 0;
-	background-color: #fc49b2;
-}
-
 /* ----- */
 /* -Bdy- */
 /* ----- */
+/*.grid {
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}*/
+
 body {
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  	left: 0;
+  	top: 0;
+  	width: 100%;
+  	height: 100%;
+	margin: 0 auto;
+	background: #ebd8c4;
 }
 
-#container {
+.container {
+	display: grid;
+	/*padding: 0;
 	margin: 0 auto;
-	width: 70%;
+	width: 100%;*/
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 1fr auto;
+	grid-gap: 1rem;
+}
+
+.container > div {
+  background: #ebd8c4;
+}
+
+.item-l {
+	grid-column-start: 1;
+	grid-row-start: 1;
+}
+
+.item-r {
+	grid-column: 2;
+	grid-row-start: 1;
+}
+
+.item-b {
+	grid-column: 1 / span 2;
+	grid-row-start: 2;
+	padding-bottom: 50px;
+}
+
+.item-l > img {
+	object-fit:contain;
+	display:block;
+	width:100%;
+	/*max-height:100%;*/
 }
 
 #Content {
-	width:100%;
-	margin: 0;
+	width:70%;
+	margin: 0 auto;
 	background-color: #ebd8c4;
 }
 
@@ -132,7 +165,6 @@ table {
 	width: 100%;
 	padding: 0 !important;
 	margin: 0 !important;
-
 }
 
 /* Button */
