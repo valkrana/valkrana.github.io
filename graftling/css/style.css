@@ -196,9 +196,9 @@ hr.boyhowdy {
 /* Footer */
 .footer {
 	position: fixed;
+	background-color: #fc49b2;
 	left: 0;
 	bottom: 0;
-	background-color: #ebd8c4;
 	width: 100%;
 	height: 35px;
 }
@@ -207,4 +207,9 @@ p.footer {
 	text-align: center;
 	vertical-align: middle;
 	padding-top: 5px !important;
+	color: #ebd8c4;
+}
+
+p.footer a {
+	color: #00ccff;
 }
