@@ -269,6 +269,9 @@ body {
 	grid-row-start: auto;
 	grid-column: auto;
 	}
+	.grid {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
 }
 
 /* ----- */
@@ -379,6 +382,12 @@ body {
 .audioflex-item {
 	width: 25%;
 	padding: 10px;
+}
+
+@media all and (max-width:680px) {
+	.audioflex-item {
+		width:100%;
+	}
 }
 
 /* Blockquote */
