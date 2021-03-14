@@ -255,20 +255,29 @@ body {
 	object-fit:contain;
 	width:100%;
 	border-radius:20px;
-	padding-bottom:5px
+	padding-bottom:5px;
+}
+
+.grid_img_chongus {
+	object-fit:contain;
+	width:100%;
+	border-radius:20px;
+	padding-bottom:5px;
 }
 
 .item-b {
-	grid-row-start: 2;
 	grid-column: span 2;
 	width:100%;
 }
 
-@media all and (max-width:680px) {
+@media all and (max-width:999px) {
 	.item-b {
 	grid-row-start: auto;
 	grid-column: auto;
 	}
+}
+
+@media all and (max-width:680px) {
 	.grid {
 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	}
