@@ -11,8 +11,207 @@ body {
 	background: #ebd8c4;
 }
 
+/* Buffer */
+#Buffer {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fdadb8;
+	display:flex;
+}
+
+/* ----- */
+/* Sheet */
+/* ----- */
+
+#CharSheet {
+	width: 100%;
+	background-color: #ece6d8;
+	margin: 0;
+	/*display: flex;*/
+  	justify-content: center;
+  	align-items: center;
+	background-image: linear-gradient(to bottom, #00ccff, #007997);
+}
+
+#CharSheet .charright {
+	width: 80%;
+	text-align:right;
+	float:right;
+	color:#ece6d8;
+	font-family: "Caladea";
+	font-weight:600;
+	font-size: 1.0em;
+	font-style: italic;
+	margin-top: -5%;
+	letter-spacing: 2px;
+	line-height: 1.6;
+	padding: 5px 5px 5px 5px;
+	text-shadow: 1px 1px black;
+}
+
+#CharSheet a, a:visited {
+	color: #006079;
+	text-decoration: none;
+}
+
+#CharSheet a:hover {
+	color: #dd872a;
+}
+
+#CharSheet p {
+	font-family: "Caladea";
+	color: #181818;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	text-indent: 1.0em;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+
+#CharSheet p.noindent {
+	text-indent: 0em;
+}
+
+#CharSheet p.center {
+	font-family: "Caladea";
+	color: #181818;
+	font-size: 1em;
+	letter-spacing: 2px;
+	line-height: 1.4;
+	text-indent: 1.0em;
+	padding-bottom: 5px;
+	margin: 0px;
+	text-align: center;
+}
+
+#CharSheet p.quote {
+	margin: 10px 0px 0px 0px;
+	padding: 5px 5px 10px 10px;
+	border-top: 2px solid rgb(29, 29, 29);
+	border-bottom: 2px solid rgb(29, 29, 29);
+	page-break-inside: avoid;
+	background-color: #fdadb8;
+	box-shadow: 3px 3px 3px rgba(190, 190, 190, 0.8);
+	text-indent: 0em;
+}
+
+.sheetflex-container {
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: center;*/
+	align-items: center;
+	list-style: none;
+}
+
+.sheetflex-iteml {
+	width: 60%;
+	padding: 20px 20px;
+}
+
+.sheetflex-itemr {
+	width: 40%;
+	padding-top:10px;
+	margin-left:-11%;
+}
+
+@media all and (max-width:1200px) {
+	.sheetflex-iteml {
+		width: 100%;
+	}
+}
+
+@media all and (max-width:1200px) {
+	.sheetflex-itemr {
+		/*width: 100%;
+		margin-left: 0;
+		padding-top: 20px;*/
+		display:none;
+	}
+}
+
+@media all and (max-width:1200px) {
+	.charright {
+		display:none;
+	}
+}
+
+.sheet_img {
+	object-fit:contain;
+	width:100%;
+}
+
+#sheet_container {
+	background: rgba(236, 230, 216, 0.85);
+	width:80%;
+	margin: 0 auto;
+	/*float:right;*/
+	border:1px solid rgba(18, 19, 20, 0.15);
+	padding:2px;
+	box-sizing:border-box;
+	z-index:2;
+	/*display: inline-block;*/
+ 	vertical-align: middle;
+}
+
+#sheet_content {
+	border:1px solid rgba(0,17,52,0.35);
+	padding:12px;
+}
+
+#sheet_content h1 {
+	text-align:center;
+	font-family: 'Source Serif Pro', serif;
+	font-size:34px;
+	font-weight:600;
+	color:#fc49b2;
+	padding: 10px 10px 10px 10px;
+	margin: 0 auto;
+}
+
+#sheet_content .left {
+	width:50%;
+	text-align:left;
+	float:left;
+	font-family: "MS Gothic";
+	font-size:13px;
+	color:#000000;
+	letter-spacing:1px;
+	padding: 5px 5px 5px 5px;
+}
+
+#sheet_content .right {
+	width: 50%;
+	text-align:right;
+	float:right;
+	font-family: "MS Gothic";
+	font-size:13px;
+	color:#000000;
+	letter-spacing:1px;
+	padding: 5px 5px 5px 5px;
+}
+
+#sheet_content .line {
+	height:1px;
+	width:100%;
+	background-color: rgba(18, 19, 20, 0.15);
+}
+
+/* Sheet Mobile */
+@media all and (max-device-width: 736px) {
+  div.sheet_container {
+	margin:auto !important;
+  }
+}
+
+/* ---------------- */
+/* BEGIN FLAVOR ETC */
+/* ---------------- */
+
 .container {
 	width: 70%;
+	padding-top: 20px;
 	margin:auto;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -29,7 +228,7 @@ body {
 	width:100%;
 }
 
-@media all and (max-width:680px) {
+@media all and (max-width:1200px) {
 	.item-b {
 	grid-row-start: auto;
 	grid-column: auto;
@@ -195,21 +394,44 @@ hr.boyhowdy {
 
 /* Footer */
 .footer {
-	position: fixed;
-	background-color: #fc49b2;
-	left: 0;
-	bottom: 0;
+	background-color: #fdadb8;
+	margin: 0 auto;
 	width: 100%;
-	height: auto;
+	height: 30px;
 }
 
 p.footer {
 	text-align: center;
 	vertical-align: middle;
-	padding: 5px 5px 5px 5px !important;
-	color: #ebd8c4;
+	padding: 10px 5px 5px 5px !important;
+	color: #181818;
+	font-family: "Caladea";
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	line-height: 1.4;
 }
 
 p.footer a {
-	color: #6ee2ff;
+	color: #006079;
+}
+
+/* Mobile */
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+
+.video-responsive{
+	overflow:hidden;
+	padding-bottom: 56.25%;
+	position:relative;
+	height:0;
+}
+
+.video-responsive iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
 }
