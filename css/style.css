@@ -80,16 +80,41 @@ body {
 	background-image: linear-gradient(to bottom, #00ccff, #007997);
 }
 
+#CharSheet p {
+	font-family: "Caladea";
+	color: #181818;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	text-indent: 1.0em;
+	padding-bottom: 5px;
+	margin: 0px;
+	text-indent: 0em;
+}
+
+#CharSheet p.subtitle {
+	font-family: "Caladea";
+	color: #181818;
+	font-size: 1em;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	line-height: 1.4;
+	padding-bottom: 5px;
+	margin: 0px;
+	text-indent: 0em;
+	text-align: center;
+}
+
 #CharSheet .charright {
-	width: 95%;
+	width: 80%;
 	text-align:right;
 	float:right;
 	color:#ece6d8;
-	font-family: "Source Sans Pro";
+	font-family: "Caladea";
 	font-weight:600;
 	font-size: 1.0em;
 	font-style: italic;
-	margin-top: -5px;
+	margin-top: -5%;
 	letter-spacing: 2px;
 	line-height: 1.6;
 	padding: 5px 5px 5px 5px;
@@ -97,7 +122,7 @@ body {
 }
 
 #CharSheet a, a:visited {
-	color: #dd872a;
+	color: #df7300;
 	text-decoration: none;
 }
 
@@ -116,6 +141,7 @@ body {
 
 .sheetflex-iteml {
 	width: 60%;
+	padding: 20px 20px;
 }
 
 .sheetflex-itemr {
@@ -124,14 +150,14 @@ body {
 	margin-left:-15%;
 }
 
-@media all and (max-width:736px) {
+@media all and (max-width:1200px) {
 	.sheetflex-iteml {
 		width: 100%;
 		padding: 20px 20px;
 	}
 }
 
-@media all and (max-width:736px) {
+@media all and (max-width:1200px) {
 	.sheetflex-itemr {
 		/*width: 100%;
 		margin-left: 0;
@@ -140,7 +166,7 @@ body {
 	}
 }
 
-@media all and (max-width:736px) {
+@media all and (max-width:1200px) {
 	.charright {
 		display:none;
 	}
@@ -172,55 +198,11 @@ body {
 #sheet_content h1 {
 	text-align:center;
 	font-family: 'Source Serif Pro', serif;
-	font-size:30px;
+	font-size:34px;
 	font-weight:600;
 	color:#dd872a;
 	padding: 10px 10px 10px 10px;
 	margin: 0 auto;
-}
-
-#sheet_content h2 {
-	text-align:center;
-	font-family: "MS Gothic";
-	font-weight:100;
-	font-size:15px;
-	color:#000000;
-	letter-spacing:2px;
-	padding: 5px 5px 5px 5px;
-	margin: 0 auto;
-}
-
-#sheet_content h3 {
-	text-align:left;
-	font-family: "MS Gothic";
-	font-weight:100;
-	font-size:12px;
-	color:#000000;
-	letter-spacing:1px;
-	padding: 5px 5px 5px 5px;
-	margin: 0 auto;
-}
-
-#sheet_content .left {
-	width:50%;
-	text-align:left;
-	float:left;
-	font-family: "MS Gothic";
-	font-size:13px;
-	color:#000000;
-	letter-spacing:1px;
-	padding: 5px 5px 5px 5px;
-}
-
-#sheet_content .right {
-	width: 50%;
-	text-align:right;
-	float:right;
-	font-family: "MS Gothic";
-	font-size:13px;
-	color:#000000;
-	letter-spacing:1px;
-	padding: 5px 5px 5px 5px;
 }
 
 #sheet_content .line {
