@@ -40,7 +40,7 @@ body {
 	color:#ece6d8;
 	font-family: "Caladea";
 	font-weight:600;
-	font-size: 1.0em;
+	font-size: 1.2em;
 	font-style: italic;
 	margin-top: -5%;
 	letter-spacing: 2px;
@@ -48,6 +48,8 @@ body {
 	padding: 5px 5px 5px 5px;
 	text-shadow: 1px 1px black;
 }
+
+#CharSheet .charright a { color: #fdadb8; }
 
 #CharSheet a, a:visited {
 	color: #006079;
