@@ -14,7 +14,7 @@ body {
 #Buffer {
 	width: 100%;
 	margin: 0 auto;
-	background-color: #dd872a;
+	background-color: #551672;
 	display:flex;
 }
 
@@ -27,7 +27,7 @@ body {
 	color:#000000;
 	letter-spacing:1px;
 	padding: 0px;
-	background-color: #dd872a;
+	background-color: #551672;
 }
 
 #Buffer .right {
@@ -39,7 +39,7 @@ body {
 	color:#000000;
 	letter-spacing:1px;
 	padding: 0px;
-	background-color: #dd872a;
+	background-color: #551672;
 }
 
 .baton {
@@ -77,7 +77,8 @@ body {
 	/*display: flex;*/
   	justify-content: center;
   	align-items: center;
-	background-image: linear-gradient(to bottom, #00ccff, #007997);
+	background-image: linear-gradient(to bottom,#837770, #726862);
+	/*background-image: linear-gradient(to bottom, #798F5D, #405523);*/
 }
 
 #CharSheet p {
@@ -122,12 +123,12 @@ body {
 }
 
 #CharSheet a, a:visited {
-	color: #df7300;
+	color: #9d1be9;
 	text-decoration: none;
 }
 
 #CharSheet a:hover {
-	color: #dd872a;
+	color: #9d1be9;
 }
 
 .sheetflex-container {
@@ -146,8 +147,8 @@ body {
 
 .sheetflex-itemr {
 	width: 40%;
-	padding-top:10px;
-	margin-left:-15%;
+	padding-top:0px;
+	margin-left:-11%;
 }
 
 @media all and (max-width:1200px) {
@@ -200,7 +201,7 @@ body {
 	font-family: 'Source Serif Pro', serif;
 	font-size:34px;
 	font-weight:600;
-	color:#dd872a;
+	color:#9d1be9;
 	padding: 10px 10px 10px 10px;
 	margin: 0 auto;
 }
@@ -280,7 +281,7 @@ body {
 }
 
 #Content a {
-	color:#dd872a;
+	color:#9d1be9;
 }
 
 #Content p {
@@ -324,7 +325,7 @@ body {
 /* Large, Colored Text */
 #Content h1 {
 	font-family: "Cormorant Unicase";
-	color: #dd872a;
+	color: #9d1be9;
 	font-size: 1.5em;
 	font-weight: 100;
 	margin-top: 0px;
@@ -384,7 +385,7 @@ body {
 /* Blockquote */
 blockquote.main {
 	background: #1d1d1d;
-	border-left: 10px solid #dd872a;
+	border-left: 10px solid #9d1be9;
 	margin: 1.5em 10px;
 	font-size: 1.0em;
 	padding: 0.5em 10px;
@@ -392,7 +393,7 @@ blockquote.main {
 
 /* Horizontal Rule */
 hr.boyhowdy {
-	border-top: 1px solid #864a0a;
+	border-top: 1px solid #9d1be9;
 	margin: 0px 0px 5px 0px;
 	padding: 0px;
 }
@@ -408,7 +409,7 @@ input[type='checkbox'] {
 	cursor: pointer;
 	padding-top: 20px;
 	width: 100%;
-	border-top: 1px dotted #dd872a;
+	border-top: 1px dotted #dabfa9;
 	border-bottom: none;
 	border-left: none;
 	border-right: none;
