@@ -93,7 +93,7 @@ figure {
 	font-size: 0.9em;
 	letter-spacing: 1px;
 	line-height: 1.4;
-	padding-left: 2em;
+	padding-left: 1%;
 	margin: 0px;
 }
 
@@ -114,54 +114,15 @@ figure {
 }
 
 #Content p.dblindent {
-	padding-left: 3em;
+	padding-left: 2%;
 }
 
 #Content p.trplindent {
-	padding-left: 4em;
+	padding-left: 3%;
 }
 
 #Content p.qdplindent {
 	text-indent: 8em;
-}
-
-/* Table */
-#Content p.tblname {
-	font-style: bold;
-	font-size: 1.1em;
-	font-weight: 600;
-	text-indent: 0em;
-}
-
-#Content p.oddl {
-	text-align: center;
-	background-color: #fdadb8;
-	text-indent: 0em;
-}
-
-#Content p.oddr {
-	background-color: #fdadb8;
-	text-indent: 0.5em;
-}
-
-#Content p.evenl {
-	text-align: center;
-	text-indent: 0em;
-}
-
-#Content p.evenr {
-	text-indent: 0.5em;
-	vertical-align: middle;
-}
-
-table {
-	border: none;
-	border-spacing: 0 !important;
-	border-collapse: collapse !important;
-	width: 100%;
-	padding: 0 !important;
-	margin: 0 !important;
-
 }
 
 /* Image */
