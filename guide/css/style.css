@@ -85,19 +85,6 @@ figure {
 	font-variant: small-caps;
 }
 
-#Content h4 {
-	font-family: "Baskerville";
-	color: #b6b6b6;
-	font-size: 1.4em;
-	margin-top: 0px;
-	padding-top: 10px;
-	letter-spacing: 2px;
-	line-height: 1.3;
-	margin-bottom: 0;
-	display: inline-block;
-	font-variant: small-caps;
-}
-
 
 /* Content Text */
 #Content p {
@@ -106,8 +93,7 @@ figure {
 	font-size: 0.9em;
 	letter-spacing: 1px;
 	line-height: 1.4;
-	text-indent: 1.0em;
-	padding: 0px;
+	padding-left: 2em;
 	margin: 0px;
 }
 
@@ -124,6 +110,19 @@ figure {
 
 #Content p.noindent {
 	text-indent: 0em;
+	padding-left: 0;
+}
+
+#Content p.dblindent {
+	padding-left: 3em;
+}
+
+#Content p.trplindent {
+	padding-left: 4em;
+}
+
+#Content p.qdplindent {
+	text-indent: 8em;
 }
 
 /* Table */
@@ -173,42 +172,6 @@ table {
   margin-right: auto;
 }
 
-/* Button */
-.baton {
-    background-color: #fc49b2;
-    display:inline-block;
-    padding:0.2em 1em;
-    margin:0;
-    border-radius:0.5em;
-    border: none;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family: "Caladea";
-    font-variant: small-caps;
-    color:#FFFFFF;
-    box-shadow:inset 0 -0.6em 0 -0.15em rgba(0,0,0,0.17);
-    text-align:center;
-    position:relative;
-    cursor:pointer;
-	outline: none;
-}
-
-.baton:active {
-  transform: translateY(4px);
-}
-
-/* Blockquote */
-#Content p.quote {
-	margin: 15px 15px 0px 0px;
-	padding: 5px 5px 10px 10px;
-	border-top: 2px solid rgb(29, 29, 29);
-	border-bottom: 2px solid rgb(29, 29, 29);
-	page-break-inside: avoid;
-	background-color: #fdadb8;
-	box-shadow: 3px 3px 3px rgba(190, 190, 190, 0.8);
-	text-indent: 0em;
-}
-
 /* Horizontal Rule */
 hr.girlhowdy {
 	border-top: 1px solid #00ccff;
@@ -233,7 +196,6 @@ hr.boyhowdy {
 }
 
 /* Spoiler */
-
 #spoiler img {
 	filter: blur(20px);
 	transition-property: -webkit-filter;
@@ -280,19 +242,4 @@ p.footer {
 @viewport {
 	width: device-width;
 	zoom: 1.0;
-}
-
-.video-responsive{
-	overflow:hidden;
-	padding-bottom: 56.25%;
-	position:relative;
-	height:0;
-}
-
-.video-responsive iframe{
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	position:absolute;
 }
