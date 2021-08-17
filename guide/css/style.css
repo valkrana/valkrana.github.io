@@ -93,7 +93,7 @@ figure {
 	font-size: 0.9em;
 	letter-spacing: 1px;
 	line-height: 1.4;
-	padding-left: 1%;
+	padding-left: 1em;
 	margin: 0px;
 }
 
@@ -114,11 +114,11 @@ figure {
 }
 
 #Content p.dblindent {
-	padding-left: 2%;
+	padding-left: 2em;
 }
 
 #Content p.trplindent {
-	padding-left: 3%;
+	padding-left: 3em;
 }
 
 #Content p.qdplindent {
