@@ -17,19 +17,13 @@ body {
 	background-repeat: repeat;*/
 }
 
-figure { 
-    display: inline-block;
-}
-
 #container {
 	margin: 0 auto;
 	width: 70%;
 	height: 100%;
 	background-color: #181818;
 	/*background-image: url("../img/scanline.png");
-	background-repeat: repeat;*/
-	overflow: hidden;
-		
+	background-repeat: repeat;*/		
 }
 
 #Content {
