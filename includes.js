@@ -2,9 +2,9 @@ var navs =	'<a href="index.html">Home</a>' +
 			'<a href="gallery.html">Gallery</a>' +
 			'<a href="about.html">About</a>' +
 			'<a href="voice.html">Voice</a>' +
+			'<a href="other.html">Crumbs</a>' +
 			'<a href="guide.html">Art Guide</a>' +
-			'<a href="./graftling/index.html" target="_blank">Graftling</a>' +
-			'<a href="other.html">Crumbs</a>';
+			'<a href="./graftling/index.html" target="_blank">Graftling</a>';
 
 function navigation() {  
     document.getElementById('navs').innerHTML = navs
