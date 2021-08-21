@@ -9,10 +9,11 @@
 /* -Bdy- */
 /* ----- */
 body {
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  	left: 0;
+  	top: 0;
+  	width: 100%;
+  	height: 100%;
+	margin: 0 auto;
 	/*background-image: url("scanline.png");
 	background-repeat: repeat;*/
 }
@@ -28,12 +29,10 @@ body {
 
 #Content {
 	width: 100%;
-	height: 100%;
-	margin: 0;
+	margin: 0 auto;
 	/*background-image: url("../img/scanline.png");
 	background-repeat: repeat;*/
 	background-color: #181818;
-	overflow: hidden;
 }
 
 #Content a {
@@ -79,6 +78,50 @@ body {
 	font-variant: small-caps;
 }
 
+/* Grid */
+.grid {
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 2rem;
+}
+
+.grid > div {
+	margin: 0 auto;
+}
+
+.grid_img {
+	object-fit:contain;
+	/*width:100%;*/
+	padding-bottom:5px;
+	max-width: 100%;
+}
+
+.grid_img_chongus {
+	object-fit:contain;
+	width:100%;
+	border-radius:20px;
+	padding-bottom:5px;
+}
+
+.item-b {
+	grid-column: span 2;
+	width:100%;
+}
+
+@media all and (max-width:999px) {
+	.item-b {
+	grid-row-start: auto;
+	grid-column: auto;
+	}
+}
+
+@media all and (max-width:680px) {
+	.grid {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+}
 
 /* Content Text */
 #Content p {
@@ -140,8 +183,8 @@ hr.girlhowdyc {
 }
 
 /* Horizontal Rule */
-hr.girlhowdyr {
-	border-top: 1px solid red;
+hr.girlhowdyp {
+	border-top: 1px solid #9d1be9;
 	margin: 5px 0px 10px 0px;
 }
 

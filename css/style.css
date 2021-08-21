@@ -4,39 +4,7 @@ body {
   	width: 100%;
   	height: 100%;
 	margin: 0 auto;
-}
-
-/* Navigation Bar */
-.navbar {
-  	background-color: #551672;
-  	overflow: hidden;
-}
-
-.navbar a {
-  	float: left;
-  	color: #ece6d8;
-  	text-align: center;
-  	padding: 10px 10px;
-  	text-decoration: none;
-  	font-size: 17px;
-	font-family: "Caladea";
-	transition: 0.5s;
-}
-
-@media all and (max-width:680px) {
-	.navbar a {
-		font-size: 13px;
-	}
-}
-
-.navbar a:hover {
-  	background-color: #ece6d8;
-  	color: #181818;
-}
-
-.navbar a.active {
-  	background-color: #551672;
-  	color: #ece6d8;
+	background-color: #181818;
 }
 
 /* Buffer */
@@ -420,55 +388,38 @@ hr.boyhowdy {
 	padding: 0px;
 }
 
-/* Collapse */
-input[type='checkbox'] {
-	display: none;
-}
-
-.lbl-toggle {
-	display:block;
-	background-color: #181818;
-	cursor: pointer;
-	padding-top: 20px;
-	width: 100%;
-	border-top: 1px dotted #dabfa9;
-	border-bottom: none;
-	border-left: none;
-	border-right: none;
-	text-align: left;
-	outline: none;
-	font-size: 15px;
-	transition: all 0.25s ease-out;
-}
-.lbl-toggle:hover {
-  color: #181818;
-}
-
-.lbl-toggle::before {
-	content: url(skull.png);
-	vertical-align: middle;
-	margin-right: .7rem;
-	float: left;
-	transform: translateY(-2px);
-	transition: transform .2s ease-out;
-}
-
-.collapsible-content {
-  max-height: 0px;
-  overflow: hidden;
-  transition: max-height .25s ease-in-out;
-}
-
-.toggle:checked + .lbl-toggle::before {
-  transform: rotate(90deg) translateX(-3px);
-}
-
-.toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 100%;
-}
-
 audio {
 	width:100%;
+}
+
+/* Footer */
+#footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	display:inline-block;
+	margin: 0 auto;
+}
+
+#footer p {
+	text-align: center;
+	font-style: italic;
+	vertical-align: middle;
+	font-family: "Caladea";
+	color: rgb(226, 226, 226);
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	line-height: 0.5;
+}
+
+#footer a, a:visited {
+	color: #9d1be9;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	color: #9d1be9;
 }
 
 /* Mobile */
