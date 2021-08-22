@@ -410,7 +410,7 @@ audio {
 	color: rgb(226, 226, 226);
 	font-size: 0.9em;
 	letter-spacing: 1px;
-	line-height: 0.5;
+	line-height: 1;
 }
 
 #footer a, a:visited {
