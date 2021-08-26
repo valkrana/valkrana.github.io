@@ -22,16 +22,24 @@
 		<!-------------------- CONTENT -------------------->
 		<div id="Content" style="padding-top: 20px">
 			<div>
+				<script>
+					var peepee = 	'<a href="img/popopoka_1.png" target="_blank"><img class="grid_img" src="img/popopoka_1athumb.png" alt="Peepee!"></a>' +
+									'<h3>Artist: <a href="https://twitter.com/popopoka_" target="_blank">Popopoka</a></h3>';
+
+					function pee() {
+						document.getElementById('peepee').innerHTML = peepee
+					}
+				</script>
 				<h1 style="font-variant:small-caps">NSFW Gallery</h1><hr class="boyhowdy">
-				<div><p class="noindent">You enter a dark corridor. A wary rattling issues from somewhere ahead. What do you do?
+				<div><p class="noindent">You enter a dark corridor. A wary rattling issues from somewhere ahead. What do you do? [<a href="gallery.html">Flee</a>] [<a href="#" onclick="pee()">Pee</a>]
 				</div>
 				<div class="grid">
 					<div>
-						<a href="img/guide/popopoka_2.png" target="_blank"><img class="grid_img" src="img/guide/popopoka_2thmb.png" alt="Prince of thieves."></a>
+						<a href="img/popopoka_2.png" target="_blank"><img class="grid_img" src="img/popopoka_2thmb.png" alt="Prince of thieves."></a>
 						<h3>Artist: <a href="https://twitter.com/popopoka_" target="_blank">Popopoka</a></h3>
 					</div>
-					<div>
-						<a href="img/guide/popopoka_1.png" target="_blank"><img class="grid_img" src="img/guide/popopoka_1thmb.png" alt="Peepee."></a>
+					<div id="peepee">
+						<a href="img/popopoka_1.png" target="_blank"><img class="grid_img" src="img/popopoka_1thumb.png" alt="Peepee?"></a>
 						<h3>Artist: <a href="https://twitter.com/popopoka_" target="_blank">Popopoka</a></h3>
 					</div>
 				</div>
