@@ -4,7 +4,7 @@ var navs =	'<a href="index.html" id="Top">Home</a>' +
 			'<a href="voice.html">Voice</a>' +
 			'<a href="other.html">Crumbs</a>' +
 			'<a href="guide.html">Art Guide</a>' +
-			'<a href="./graftling/index.html" target="_blank">Graftling</a>';
+			'<a href="graftling.html">Graftling</a>';
 
 function navigation() {  
     document.getElementById('navs').innerHTML = navs
