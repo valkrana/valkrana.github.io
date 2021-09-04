@@ -269,6 +269,11 @@ body {
 	text-indent: 0em;
 }
 
+#Content p.noindentitalic {
+	text-indent: 0em;
+	font-style: italic;
+}
+
 /* Relationship Text */
 #Content p.kin {
 	line-height: 1.5em;
@@ -308,6 +313,12 @@ body {
 	line-height: 1.3;
 	margin-bottom: 0;
 	display: inline-block;
+	font-variant: small-caps;
+}
+
+#Content h1.reduced {
+	font-size: 1.2em;
+	font-style: italic;
 }
 
 /* Content Text */
