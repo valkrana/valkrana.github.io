@@ -12,7 +12,7 @@ function navigation() {
 
 var foot =	'<a href="#Top"><p>Return to Top</a><br><br>' +
 			'<img src="css/skull.png"><img src="css/skull.png" style="padding: 0 5px 0 5px"><img src="css/skull.png"><br>' +
-			'<p style="margin-top: -10px">Character by <a href="http://www.twitter.com/ActualSailorCat" target="_blank">SailorCat</a>';
+			'<p style="margin-top: -10px">Valkrana by <a href="http://www.twitter.com/ActualSailorCat" target="_blank">SailorCat</a>';
 
 function footer() {  
     document.getElementById('footer').innerHTML = foot
