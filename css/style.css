@@ -67,6 +67,7 @@ body {
 
 #CharSheet p.subtitle {
 	font-family: "Caladea";
+	font-style: italic;
 	color: #181818;
 	font-size: 1em;
 	letter-spacing: 2px;
