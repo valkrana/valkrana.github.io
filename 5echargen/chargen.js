@@ -39,17 +39,11 @@ function chargen() {
     var aAn			= "a"
     var chosenRace 	= raceArr[Math.floor(Math.random() * raceArr.length)];
     if (window[chosenRace.toLowerCase() + 'Arr']) {
-        switch (chosenRace) {
-            case chosenRace: chosenRace = window[chosenRace.toLowerCase() + 'Arr'][Math.floor(Math.random() * + window[chosenRace.toLowerCase() + 'Arr'].length)] + " " + chosenRace;
-            break;
-        }
+        chosenRace = window[chosenRace.toLowerCase() + 'Arr'][Math.floor(Math.random() * + window[chosenRace.toLowerCase() + 'Arr'].length)] + " " + chosenRace;
     }
     // Class
     var chosenClass = classArr[Math.floor(Math.random() * classArr.length)];
-    switch (chosenClass) {
-        case chosenClass: chosenClass = window[chosenClass.toLowerCase() + 'Arr'][Math.floor(Math.random() * + window[chosenClass.toLowerCase() + 'Arr'].length)] + " " + chosenClass;
-        break;
-    }
+    chosenClass = window[chosenClass.toLowerCase() + 'Arr'][Math.floor(Math.random() * + window[chosenClass.toLowerCase() + 'Arr'].length)] + " " + chosenClass;
     // Output
     if (vowels.includes(chosenRace.charAt(0).toLowerCase())) { aAn = "an"; }
     var character = "You are " + aAn + " <span style=\"color:#00ccff\">" + chosenRace + "</span> <span style=\"color:#fc49b2\">" + chosenClass + "</span>, and you have the <span style=\"color:#ffff00\">" + bgArr[Math.floor(Math.random() * bgArr.length)] + "</span> background.";
