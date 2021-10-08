@@ -46,7 +46,7 @@ function chargen() {
     chosenClass = window[chosenClass.toLowerCase() + 'Arr'][Math.floor(Math.random() * + window[chosenClass.toLowerCase() + 'Arr'].length)] + " " + chosenClass;
     // Output
     if (vowels.includes(chosenRace.charAt(0).toLowerCase())) { aAn = "an"; }
-    var character = "You are " + aAn + " <span style=\"color:#00ccff\">" + chosenRace + "</span> <span style=\"color:#fc49b2\">" + chosenClass + "</span>, and you have the <span style=\"color:#ffff00\">" + bgArr[Math.floor(Math.random() * bgArr.length)] + "</span> background.";
+    var character = "You are " + aAn + " <span style=\"color:#00ccff\">" + chosenRace + "</span> <span style=\"color:#fc49b2\">" + chosenClass + "</span> with the <span style=\"color:#ffff00\">" + bgArr[Math.floor(Math.random() * bgArr.length)] + "</span> background.";
     // Update Element
     if (rollCounter === maxRolls) {
         document.getElementById('roll').innerHTML = "";
