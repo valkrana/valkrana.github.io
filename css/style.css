@@ -96,12 +96,12 @@ body {
 }
 
 #CharSheet a, a:visited {
-	color: #9d1be9;
+	color: #fc49b2;
 	text-decoration: none;
 }
 
 #CharSheet a:hover {
-	color: #9d1be9;
+	color: #fc49b2;
 }
 
 .sheetflex-container {
@@ -252,7 +252,7 @@ body {
 }
 
 #Content a {
-	color:#9d1be9;
+	color:#fc49b2;
 }
 
 #Content p {
@@ -417,12 +417,12 @@ video {
 }
 
 #footer a, a:visited {
-	color: #9d1be9;
+	color: #fc49b2;
 	text-decoration: underline;
 }
 
 #footer a:hover {
-	color: #9d1be9;
+	color: #fc49b2;
 }
 
 /* Mobile */
