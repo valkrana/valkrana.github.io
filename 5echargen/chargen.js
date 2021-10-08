@@ -1,5 +1,5 @@
 // Races
-var raceArr 	    = ['Aarakocra', 'Aasimar', 'Bugbear', 'Centaur', 'Changeling', 'Dhampir', 'Dragonborn', 'Dwarf', 'Elf', 'Firbolg', 'Genasi', 'Githyanki', 'Githzerai', 'Gnome', 'Goblin', 'Goliath', 'Graftling', 'Half-Elf', 'Half-Orc', 'Halfling', 'Hexblood', 'Hobgoblin', 'Human', 'Kalashtar', 'Kenku', 'Kobold', 'Leonin', 'Lizardfolk', 'Loxodon', 'Minotaur', 'Orc', 'Reborn', 'Satyr', 'Shifter', 'Simic Hybrid', 'Tabaxi', 'Tiefling', 'Triton', 'Vedalken', 'Verdan', 'Warforged', 'Yuan-ti Pureblood'];	
+var raceArr 	    = ['Aarakocra', 'Aasimar', 'Bugbear', 'Centaur', 'Changeling', 'Dhampir', 'Dragonborn', 'Dwarf', 'Elf', 'Fairy', 'Firbolg', 'Genasi', 'Githyanki', 'Githzerai', 'Gnome', 'Goblin', 'Goliath', 'Graftling', 'Half-Elf', 'Half-Orc', 'Halfling', 'Harengon', 'Hexblood', 'Hobgoblin', 'Human', 'Kalashtar', 'Kenku', 'Kobold', 'Leonin', 'Lizardfolk', 'Loxodon', 'Minotaur', 'Orc', 'Reborn', 'Satyr', 'Shifter', 'Simic Hybrid', 'Tabaxi', 'Tiefling', 'Triton', 'Vedalken', 'Verdan', 'Warforged', 'Yuan-ti Pureblood'];	
 // Subraces
 var aasimarArr      = ['Fallen', 'Protector', 'Scourge'];
 var dragonbornArr   = ['', 'Draconblood', 'Ravenite'];
