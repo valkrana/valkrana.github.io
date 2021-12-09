@@ -275,6 +275,17 @@ body {
 	font-style: italic;
 }
 
+#Content p.overview {
+	text-indent: 0em;
+	line-height: 1.25;
+	margin: 0;
+	padding: 0;
+}
+
+#Content p.overview > br {
+	margin-bottom:10px;
+}
+
 /* Relationship Text */
 #Content p.kin {
 	line-height: 1.5em;
