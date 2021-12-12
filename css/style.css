@@ -143,6 +143,21 @@ body {
 	}
 }
 
+/* Autograph */
+@media all and (max-width:900px) {
+	#autograph {
+		display:none;
+	}
+}
+
+/* Valk Background Image */
+@media all and (max-width:1200px) {
+	#CharSheet {
+		background: url("../img/toi_neutral_1200.png") no-repeat, linear-gradient(to bottom,#837770, #726862) !important;
+		background-size: cover !important;
+	}
+}
+
 .sheet_img {
 	object-fit:contain;
 	width:100%;
@@ -180,6 +195,11 @@ body {
 	height:1px;
 	width:100%;
 	background-color: rgba(18, 19, 20, 0.15);
+}
+
+#sheet_content > img {
+	opacity: 0.1 !important;
+	float: right;
 }
 
 /* Sheet Mobile */
