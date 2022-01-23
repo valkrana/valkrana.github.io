@@ -50,7 +50,7 @@ body {
 	margin: 0;
   	justify-content: center;
   	align-items: center;
-	background-image: url("../img/valk_bg_1920.webp");
+	background-image: url("../img/valk_bg_1920.jpg");
 	background-size: cover;
 	background-position: right;
 }
@@ -165,7 +165,7 @@ body {
 
 @media all and (max-width:900px) {
 	#CharSheet {
-		background-image: url("../img/valk_bg_900.webp");
+		background-image: url("../img/valk_bg_900.jpg");
 	}
 }
 
