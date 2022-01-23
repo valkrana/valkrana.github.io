@@ -46,11 +46,13 @@ body {
 /* Character Sheet */
 #CharSheet {
 	width: 100%;
-	background-color: #ece6d8;
+	/*background-color: #ece6d8;*/
 	margin: 0;
   	justify-content: center;
   	align-items: center;
-	background-image: linear-gradient(to bottom,#837770, #726862);
+	background-image: url("../img/valk_bg_1920.webp");
+	background-size: cover;
+	background-position: right;
 }
 
 #CharSheet p {
@@ -108,71 +110,30 @@ body {
 	width:100%;
 	display: flex;
 	flex-wrap: wrap;
-	/*justify-content: center;*/
+	justify-content: center;
 	align-items: center;
 	list-style: none;
+	padding-top: 20%;
 }
 
-.sheetflex-iteml {
-	width: 60%;
+.sheetflex {
+	width: 70%;
 	padding: 20px 20px;
 }
 
-.sheetflex-itemr {
-	width: 40%;
-	padding-top:0px;
-	margin-left:-11%;
-}
-
-@media all and (max-width:1200px) {
-	.sheetflex-iteml {
-		width: 100%;
-		padding: 20px 20px;
-	}
-}
-
-@media all and (max-width:1200px) {
-	.sheetflex-itemr {
-		display:none;
-	}
-}
-
-@media all and (max-width:1200px) {
-	.charright {
-		display:none;
-	}
-}
-
-/* Autograph */
-@media all and (max-width:900px) {
-	#autograph {
-		display:none;
-	}
-}
-
-/* Valk Background Image */
-@media all and (max-width:1200px) {
-	#CharSheet {
-		background: url("../img/toi_neutral_1200.png") no-repeat, linear-gradient(to bottom,#837770, #726862) !important;
-		background-size: cover !important;
-	}
-}
-
 .sheet_img {
-	object-fit:contain;
+	object-fit:fill;
 	width:100%;
 }
 
 #sheet_container {
 	background: rgba(236, 230, 216, 0.85);
-	width:80%;
+	width:100%;
 	margin: 0 auto;
-	/*float:right;*/
 	border:1px solid rgba(18, 19, 20, 0.15);
 	padding:2px;
 	box-sizing:border-box;
 	z-index:2;
-	/*display: inline-block;*/
  	vertical-align: middle;
 }
 
@@ -202,11 +163,27 @@ body {
 	float: right;
 }
 
+@media all and (max-width:900px) {
+	#CharSheet {
+		background-image: url("../img/valk_bg_900.webp");
+	}
+}
+
 /* Sheet Mobile */
+@media all and (max-width:736px) {
+	.sheetflex-container {
+		padding-top: 0;
+	}
+
+	.sheetflex {
+		width: 100%;
+	}
+}
+
 @media all and (max-device-width: 736px) {
-  div.sheet_container {
+	div.sheet_container {
 	margin:auto !important;
-  }
+	}
 }
 
 /*
