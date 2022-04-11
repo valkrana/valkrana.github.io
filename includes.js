@@ -28,7 +28,8 @@ function keepsake() {
 
 //Footer
 var foot =	'<a href="#Top"><p>Return to Top</a><br><br>' +
-			'<img src="css/skull.png"><img src="css/skull.png" style="padding: 0 5px 0 5px"><img src="css/skull.png"><br>' +
+			//'<img src="css/skull.png"><img src="css/skull.png" style="padding: 0 5px 0 5px"><img src="css/skull.png"><br>' +
+			'<img src="css/valksewally_accordion101.gif" title="Animation courtesy @Sewally2 on Twitter."><br>' +
 			'<p style="margin-top: -10px">Valkrana by <a href="http://www.twitter.com/ActualSailorCat" target="_blank">SailorCat</a>';
 
 function footer() {  
