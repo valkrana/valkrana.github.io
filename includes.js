@@ -3,7 +3,7 @@ var navs =	'<a href="index.html" id="Top">Home</a>' +
 			'<a href="gallery.html">Gallery</a>' +
 			'<a href="about.html">About</a>' +
 			'<a href="voice.html">Voice</a>' +
-			'<a href="other.html">Crumbs</a>' +
+			//'<a href="other.html">Crumbs</a>' +
 			'<a href="guide.html">Art Guide</a>' +
 			'<a href="graftling.html">Graftling</a>' +
 			'<a href="https://discord.gg/xQC5MxVWyK" target="_blank">Discord</a>';
