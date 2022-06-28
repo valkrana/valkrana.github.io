@@ -211,6 +211,7 @@ body {
 	grid-row-start: auto;
 	grid-column: auto;
 	}
+	.grid { row-gap: 0rem; }
 }
 
 @media all and (max-width:680px) {
