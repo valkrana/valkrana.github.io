@@ -32,7 +32,7 @@ body {
 }
 
 #CharSheet p {
-	font-family: "Caladea" serif;
+	font-family: "Caladea", serif;
 	color: #181818;
 	font-size: calc(12px + 0.1vw);
 	letter-spacing: 1px;
