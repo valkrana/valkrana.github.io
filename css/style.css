@@ -246,6 +246,10 @@ body {
 	margin: 0 auto;	
 }
 
+@media all and (max-width:680px) {
+	#Content > div { width: 90%; }
+}
+
 #Content a {
 	color:#fc49b2;
 }
