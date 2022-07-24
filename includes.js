@@ -6,6 +6,7 @@ var navs =	'<a href="index.html" id="Top">Home</a>' +
 			//'<a href="other.html">Crumbs</a>' +
 			'<a href="guide.html">Art Guide</a>' +
 			'<a href="graftling.html">Graftling</a>' +
+			'<a href="tools.html">Tools</a>' +
 			'<a href="https://discord.gg/xQC5MxVWyK" target="_blank">Discord</a>';
 
 function navigation() {  
