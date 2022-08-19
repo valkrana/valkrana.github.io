@@ -26,9 +26,10 @@ body {
 	margin: 0;
   	justify-content: center;
   	align-items: center;
-	background-image: url("../img/bg_anpuraya.webp");
+	background-image: url("../img/bg.webp");
 	background-size: cover;
-	background-position: right;
+	background-position: left;
+	/*background-image: linear-gradient(to bottom, #7d997b, #95b493);*/
 }
 
 #CharSheet p {
@@ -91,14 +92,14 @@ body {
 
 .sheet-l {
 	margin:0 auto;
-	width:50%;
-	padding:20px 0 20px 0;
+	width:60%;
+	padding:0px 0 0px 0;
 	align-self: center;
 }
 
 .sheet-r {
 	margin:0 auto;
-	width:50%;
+	width:40%;
 	padding:0;
 	align-self: flex-end;
 }
@@ -146,7 +147,7 @@ body {
 }
 
 /* Sheet Mobile */
-@media all and (max-width:1200px) {
+@media all and (max-width:1040px) {
 	.sheetflex-container {
 		flex-direction:column;
 		flex-wrap: wrap;
@@ -156,17 +157,13 @@ body {
 	.sheetflex-container > .sheet-r { order: 1; }
 	/*.sheet_img { height:95vh; }*/
 	.sheet-l { width:100%; padding-top:0; }
-	.sheet-r { width:100%; padding-bottom:0; height: fit-content;}
+	.sheet-r { width:70%; padding-bottom:0; height: fit-content;}
 }
 
 @media all and (max-width:736px) {
-	.sheetflex-container {
-		padding-top: 0;
-	}
-
-	.sheetflex {
-		width: 100%;
-	}
+	.sheetflex-container { padding-top: 0; }
+	.sheetflex { width: 100%; }
+	.sheet-r { width:100%; }
 }
 
 @media all and (max-device-width: 736px) {

@@ -13,6 +13,13 @@ function navigation() {
     document.getElementById('navs').innerHTML = navs
 }
 
+//Character art
+var arts = ["neutral", "cling", "arcanist", "ohayou"];
+function characterart() {
+	var artsRoll = Math.floor(Math.random() * arts.length);
+	document.getElementById('CharacterArt').setAttribute("src", "img/char_nuyums_" + arts[artsRoll] + ".webp");
+}
+
 //Skeleton Counter
 var iNewbies = 3019221 + ((Math.floor(new Date().getTime() / 100000000)) - 16374);
 var sNewbies = iNewbies.toLocaleString("en-US");
