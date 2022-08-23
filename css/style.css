@@ -101,7 +101,26 @@ body {
 	object-fit:scale-down;
 	width:100%;
 	vertical-align: bottom;
-	margin-left: 10%;
+	position: relative;
+	margin-left: 0%;
+	animation: drift 2s forwards;
+	-webkit-animation: wdrift 2s forwards;
+	-moz-animation: mdrift 2s forwards;
+}
+
+@keyframes drift {
+	0% { margin-left:0; }
+	100% { margin-left:10%; }
+}
+
+@-webkit-keyframes wdrift {
+	0% { margin-left:0; }
+	100% { margin-left:10%; }
+}
+
+@-moz-keyframes mdrift {
+	0% { margin-left:0; }
+	100% { margin-left:10%; }
 }
 
 .sheet-r {
@@ -156,7 +175,7 @@ body {
 	}
 	.sheet-r { width:100%; padding-top:0; }
 	.sheet-l { width:70%; padding-bottom:0; height:fit-content;}
-	.sheet-l img { margin:inherit; }
+	.sheet-l img { margin:inherit; animation: none; -webkit-animation: none; }
 }
 
 @media all and (max-width:736px) {
