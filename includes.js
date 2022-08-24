@@ -1,11 +1,11 @@
 //Navigation
-var navs =	'<a href="index.html" id="Top">Home</a>' +
-			'<a href="gallery.html">Gallery</a>' +
-			'<a href="about.html">About</a>' +
-			'<a href="voice.html">Voice</a>' +
-			'<a href="guide.html">Art Guide</a>' +
-			'<a href="graftling.html">Graftling</a>' +
-			'<a href="https://discord.gg/xQC5MxVWyK" target="_blank">Discord</a>';
+var navs =	'<a href="index.html" id="Top" style="font-family: \'Caladea\', serif;">Home</a>' +
+			'<a href="gallery.html" style="font-family: \'Caladea\', serif;">Gallery</a>' +
+			'<a href="about.html" style="font-family: \'Caladea\', serif;">About</a>' +
+			'<a href="voice.html" style="font-family: \'Caladea\', serif;">Voice</a>' +
+			'<a href="guide.html" style="font-family: \'Caladea\', serif;">Art Guide</a>' +
+			'<a href="graftling.html" style="font-family: \'Caladea\', serif;">Graftling</a>' +
+			'<a href="https://discord.gg/xQC5MxVWyK" style="font-family: \'Caladea\', serif;" target="_blank">Discord</a>';
 
 function navigation() {  
     document.getElementById('navs').innerHTML = navs
@@ -33,9 +33,9 @@ function keepsake() {
 }
 
 //Footer
-var foot =	'<a href="#Top"><p>Return to Top</a><br><br>' +
+var foot =	'<a href="#Top"><p style="font-family: \'Caladea\', serif;">Return to Top</a><br><br>' +
 			'<img src="css/valksewally_accordion101.gif" title="Animation courtesy @Sewally2 on Twitter."><br>' +
-			'<p style="margin-top: -10px">Valkrana by <a href="http://www.twitter.com/ActualSailorCat" target="_blank">SailorCat</a>';
+			'<p style="margin-top: -10px; font-family: \'Caladea\', serif;">Valkrana by <a href="http://www.twitter.com/ActualSailorCat" target="_blank">SailorCat</a>';
 
 function footer() {  
     document.getElementById('footer').innerHTML = foot

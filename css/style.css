@@ -58,22 +58,6 @@ body {
 	text-align: center;
 }
 
-#CharSheet .charright { /* This is unused atm. */
-	width: 80%;
-	text-align:right;
-	float:right;
-	color:#ece6d8;
-	font-family: "Caladea";
-	font-weight:600;
-	font-size: 1.0em;
-	font-style: italic;
-	margin-top: -5%;
-	letter-spacing: 2px;
-	line-height: 1.6;
-	padding: 5px 5px 5px 5px;
-	text-shadow: 1px 1px black;
-}
-
 #CharSheet a, a:visited {
 	color: #fc49b2;
 	text-decoration: none;
@@ -175,7 +159,19 @@ body {
 	}
 	.sheet-r { width:100%; padding-top:0; }
 	.sheet-l { width:70%; padding-bottom:0; height:fit-content;}
-	.sheet-l img { margin:inherit; animation: none; -webkit-animation: none; }
+	.sheet-l img { margin:inherit; } /*animation: none; -webkit-animation: none;*/
+	@keyframes drift {
+		0% { margin-left:-10%; }
+		100% { margin-left:0%; }
+	}
+	@-webkit-keyframes wdrift {
+		0% { margin-left:-10%; }
+		100% { margin-left:0%; }
+	}
+	@-moz-keyframes mdrift {
+		0% { margin-left:-10%; }
+		100% { margin-left:0%; }
+	}
 }
 
 @media all and (max-width:736px) {
@@ -185,9 +181,7 @@ body {
 }
 
 @media all and (max-device-width: 736px) {
-	div.sheet_container {
-	margin:auto !important;
-	}
+	div.sheet_container { margin:auto !important; }
 }
 
 /*
@@ -265,10 +259,7 @@ body {
 	#Content > div { width: 90%; }
 }
 
-#Content a {
-	color:#fc49b2;
-}
-
+#Content a { color:#fc49b2; }
 #Content p {
 	font-family: "Source Sans Pro", serif;
 	/*font-family: "Caladea";*/
