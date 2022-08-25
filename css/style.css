@@ -93,17 +93,17 @@ body {
 }
 
 @keyframes drift {
-	0% { margin-left:0; }
+	0% { margin-left:-10%; }
 	100% { margin-left:10%; }
 }
 
 @-webkit-keyframes wdrift {
-	0% { margin-left:0; }
+	0% { margin-left:-10%; }
 	100% { margin-left:10%; }
 }
 
 @-moz-keyframes mdrift {
-	0% { margin-left:0; }
+	0% { margin-left:-10%; }
 	100% { margin-left:10%; }
 }
 
@@ -161,15 +161,15 @@ body {
 	.sheet-l { width:70%; padding-bottom:0; height:fit-content;}
 	.sheet-l img { margin:inherit; } /*animation: none; -webkit-animation: none;*/
 	@keyframes drift {
-		0% { margin-left:-10%; }
+		0% { margin-left:-15%; }
 		100% { margin-left:0%; }
 	}
 	@-webkit-keyframes wdrift {
-		0% { margin-left:-10%; }
+		0% { margin-left:-15%; }
 		100% { margin-left:0%; }
 	}
 	@-moz-keyframes mdrift {
-		0% { margin-left:-10%; }
+		0% { margin-left:-15%; }
 		100% { margin-left:0%; }
 	}
 }
