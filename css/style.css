@@ -261,7 +261,7 @@ body {
 #Content a { color:#fc49b2; }
 #Content p {
 	font-family: "Source Sans Pro", serif;
-	font-size: calc(13px + 0.2vw);
+	font-size: calc(13px + 0.1vw);
 	color: rgb(226, 226, 226);
 	letter-spacing: 1px;
 	line-height: 1.3;
