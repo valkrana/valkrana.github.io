@@ -34,7 +34,7 @@ body {
 #CharSheet p {
 	font-family: "Caladea", serif;
 	color: #181818;
-	font-size: calc(12px + 0.1vw);
+	font-size: calc(13px + 0.1vw);
 	letter-spacing: 1px;
 	line-height: 1.4;
 	text-indent: 1.0em;
@@ -261,6 +261,7 @@ body {
 #Content a { color:#fc49b2; }
 #Content p {
 	font-family: "Source Sans Pro", serif;
+	font-size: calc(13px + 0.2vw);
 	color: rgb(226, 226, 226);
 	letter-spacing: 1px;
 	line-height: 1.3;
