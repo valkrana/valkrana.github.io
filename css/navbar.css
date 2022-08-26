@@ -4,7 +4,7 @@
   	overflow: hidden;
 }
 
-.navbar a {
+.navbar a, a:visited {
   	float: left;
   	color: #ece6d8;
   	text-align: center;
