@@ -13,6 +13,8 @@ body {
 	margin: 0 auto;
 	background-color: #551672;
 	display:flex;
+	z-index:2;
+	position:relative;
 }
 
 /*
@@ -27,6 +29,8 @@ body {
   	justify-content: center;
   	align-items: center;
 	background-image: linear-gradient(to bottom,#837770, #726862);
+	z-index:2;
+	position:relative;
 }
 
 #CharSheet p {
@@ -470,6 +474,18 @@ audio {
 video { 
 	max-width: 100% !important;
   	height: auto !important;
+}
+
+/* Game Over */
+#gameover {
+	position:fixed;
+	bottom:0;
+	right:0;
+	z-index:1;
+}
+
+@media all and (max-width:1600px) {
+	#gameover { opacity: 0%; }
 }
 
 /* Footer */
