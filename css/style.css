@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;1,300;1,400&family=Source+Serif+Pro:wght@600&display=swap');
 body {
   	left: 0;
   	top: 0;
@@ -127,7 +128,7 @@ body {
 
 #sheet_content h1 {
 	text-align:center;
-	font-family: "Source Serif Pro", sans-serif;
+	font-family: "Source Serif Pro", serif;
 	font-size: calc(28px + 0.5vw);
 	font-weight:600;
 	color:#9d1be9;
