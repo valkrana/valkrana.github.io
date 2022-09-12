@@ -373,7 +373,7 @@ video { max-width: 100% !important;	height: auto !important; }
 }
 
 @media all and (max-width:1600px) {
-	#gameover { opacity: 0%; }
+	#gameover { display: none; }
 }
 
 /* Footer */
