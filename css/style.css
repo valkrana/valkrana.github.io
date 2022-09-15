@@ -364,7 +364,6 @@ video { max-width: 100% !important;	height: auto !important; }
 }
 
 /* Game Over */
-
 #gameover {
 	position:fixed;
 	bottom:0;
