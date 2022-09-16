@@ -84,7 +84,7 @@ body {
 	position: relative;
 	margin-left: 0%;
 	-webkit-animation: drift 2s forwards;
-	-moz-animation: mrift 2s forwards;
+	-moz-animation: drift 2s forwards;
 	-o-animation: drift 2s forwards;
 	-ms-animation: drift 2s forwards;
 	animation: drift 2s forwards;
