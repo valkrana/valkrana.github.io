@@ -83,25 +83,18 @@ body {
 	vertical-align: bottom;
 	position: relative;
 	margin-left: 0%;
+	-webkit-animation: drift 2s forwards;
+	-moz-animation: mrift 2s forwards;
+	-o-animation: drift 2s forwards;
+	-ms-animation: drift 2s forwards;
 	animation: drift 2s forwards;
-	-webkit-animation: wdrift 2s forwards;
-	-moz-animation: mdrift 2s forwards;
 }
-
-@keyframes drift {
-	0% { margin-left:-50%; }
-	100% { margin-left:10%; }
-}
-
-@-webkit-keyframes wdrift {
-	0% { margin-left:-50%; }
-	100% { margin-left:10%; }
-}
-
-@-moz-keyframes mdrift {
-	0% { margin-left:-50%; }
-	100% { margin-left:10%; }
-}
+/* Animating Valkrana .sheet-l img above. */
+@keyframes drift { 0% { margin-left:-50%; }	100% { margin-left:10%; } }
+@-webkit-keyframes drift {	0% { margin-left:-50%; } 100% { margin-left:10%; } }
+@-moz-keyframes drift { 0% { margin-left:-50%; } 100% { margin-left:10%; } }
+@-o-keyframes drift { 0% { margin-left:-50%; } 100% { margin-left:10%; } }
+@-ms-keyframes drift { 0% { margin-left:-50%; } 100% { margin-left:10%; } }
 
 .sheet-r {
 	margin:0 auto;
@@ -152,18 +145,11 @@ body {
 	.sheet-r { width:100%; padding-top:0; }
 	.sheet-l { width:70%; padding-bottom:0; height:fit-content;}
 	.sheet-l img { margin:inherit; } /*animation: none; -webkit-animation: none;*/
-	@keyframes drift {
-		0% { margin-left:-30%; }
-		100% { margin-left:0%; }
-	}
-	@-webkit-keyframes wdrift {
-		0% { margin-left:-30%; }
-		100% { margin-left:0%; }
-	}
-	@-moz-keyframes mdrift {
-		0% { margin-left:-30%; }
-		100% { margin-left:0%; }
-	}
+	@-webkit-keyframes drift { 0% { margin-left:-30%; } 100% { margin-left:0%; } }
+	@-moz-keyframes drift {	0% { margin-left:-30%; } 100% { margin-left:0%; } }
+	@-o-keyframes drift { 0% { margin-left:-30%; } 100% { margin-left:0%; } }
+	@-ms-keyframes drift {	0% { margin-left:-30%; } 100% { margin-left:0%; } }
+	@keyframes drift { 0% { margin-left:-30%; }	100% { margin-left:0%; } }
 }
 
 @media all and (max-width:736px) {
