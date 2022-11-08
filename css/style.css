@@ -284,6 +284,14 @@ body {
 #Content h1.reduced {
 	font-size: calc(16px + 0.3vw);
 	font-style: italic;
+	line-height: 1;
+}
+
+#Content h1.reducedalt {
+	font-size: calc(16px + 0.3vw);
+	font-style: italic;
+	line-height: 1;
+	color:#b984ea;
 }
 
 /* Content Text */
