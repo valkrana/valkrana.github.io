@@ -153,6 +153,7 @@ body {
 }
 
 @media all and (max-width:736px) {
+	#CharSheet { background-image: url("../img/bg_arcanestudy_mobile.webp"); }
 	.sheetflex-container { padding-top:0; }
 	.sheetflex { width:100%; }
 	.sheet-l { width:100%; }
