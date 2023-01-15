@@ -249,6 +249,18 @@ body {
 	text-indent: 0.5em;
 }
 
+#Content p.center {
+	font-family: "Caladea", serif;
+	color: rgb(226, 226, 226);
+	font-size: 1em;
+	letter-spacing: 2px;
+	line-height: 1.4;
+	text-indent: 1.0em;
+	padding-bottom: 5px;
+	margin: 0px;
+	text-align: center;
+}
+
 #Content p.noindent {
 	text-indent: 0em;
 }
