@@ -8,179 +8,8 @@ body {
 	background-color: #181818;
 }
 
-/* Buffer */
-#Buffer {
-	width: 100%;
-	margin: 0 auto;
-	background-color: #551672;
-	display:flex;
-	z-index:2;
-	position:relative;
-}
-
-/*
-	LANDING/HOME SHEET BEGINS HERE.
-*/
-
-/* Character Sheet */
-#CharSheet {
-	width: 100%;
-	background-color: #ece6d8;
-	margin: 0;
-  	justify-content: center;
-  	align-items: center;
-	background-image: linear-gradient(to bottom,#837770, #726862);
-	z-index:2;
-	position:relative;
-}
-
-#CharSheet p {
-	font-family: "Caladea", serif;
-	color: #181818;
-	font-size: calc(13px + 0.1vw);
-	letter-spacing: 1px;
-	line-height: 1.4;
-	text-indent: 1.0em;
-	padding-bottom: 5px;
-	margin: 0px;
-	text-indent: 0em;
-}
-
-#CharSheet p.center {
-	font-family: "Caladea", serif;
-	color: #181818;
-	font-size: 1em;
-	letter-spacing: 2px;
-	line-height: 1.4;
-	text-indent: 1.0em;
-	padding-bottom: 5px;
-	margin: 0px;
-	text-align: center;
-}
-
-#CharSheet p.quotebox {
-	margin: 10px 0px 0px 0px;
-	padding: 5px 5px 10px 10px;
-	border-top: 2px solid rgb(29, 29, 29);
-	border-bottom: 2px solid rgb(29, 29, 29);
-	page-break-inside: avoid;
-	background-color: #d285ff;
-	box-shadow: 3px 3px 3px rgba(190, 190, 190, 0.8);
-	text-indent: 0em;
-}
-
-#CharSheet p.subtitle {
-	font-family: "Caladea", serif;
-	font-style: italic;
-	color: #3d3d3d;
-	font-size: calc(12px + 0.3vw);
-	letter-spacing: 2px;
-	word-spacing: 3px;
-	line-height: 1.4;
-	padding-bottom: 5px;
-	margin: 0px;
-	text-indent: 0em;
-	text-align: center;
-}
-
-#CharSheet a, a:visited {
-	color: #fc49b2;
-	text-decoration: none;
-}
-
-#CharSheet a:hover {
-	color: #fc49b2;
-}
-#sheet_container {
-	width:100%;
-	padding: 20px 0 20px 0;
-	margin: 0 auto;
-}
-
-#sheet {
-	background: rgba(236, 230, 216, 0.85);
-	width:90%;
-	margin: 0 auto;
-	border:1px solid rgba(18, 19, 20, 0.15);
-	padding:2px;
-	box-sizing:border-box;
-	z-index:2;
- 	vertical-align: middle;
-}
-
-.sheet_content {
-	margin: 0 auto;
-	border:1px solid rgba(0,17,52,0.35);
-	padding:12px;
-}
-
-.pages {
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 65% 35%;
-	gap: 0.5rem;
-	align-items: center;
- 	vertical-align: middle;
-}
-
-#graftling_right {
-	margin: 0 auto;
-	align-items: center;
- 	vertical-align: middle;
-	padding: 10px;
-}
-
-.sheet_img {
-	object-fit:contain;
-	width:100%;
-	max-width:561px;
-	border-radius:20px;
-}
-
-.sheet_content h1 {
-	text-align:center;
-	font-family: 'Source Serif Pro', serif;
-	font-size:34px;
-	font-weight:600;
-	color:#9d1be9;
-	padding: 10px 10px 10px 10px;
-	margin: 0 auto;
-}
-
-.sheet_content .line {
-	height:1px;
-	width:100%;
-	background-color: rgba(18, 19, 20, 0.15);
-}
-
-.sheet_content > img {
-	object-fit:contain;
-	width:100%;
-}
-
-/* Sheet Mobile */
-@media all and (max-device-width: 736px) {
-  div.sheet_container {
-	margin:auto !important;
-  }
-}
-
-@media all and (max-width:1200px) {
-	.pages {
-		grid-template-columns: 100%
-	}
-	#graftling_right {
-		display:none;
-	}
-}
-
-/*
- 	LANDING/HOME SHEET ENDS HERE.
-	CONTENT BEGINS BELOW
-*/
-
-/* Graftling */
-.graftling {
+/* Grid */
+.graftling_grid {
 	width: 70%;
 	margin:auto;
 	display: grid;
@@ -201,13 +30,6 @@ body {
 
 .grid > div {
 	margin: 0 auto;
-}
-
-.grid_img_chongus {
-	object-fit:contain;
-	width:100%;
-	border-radius:20px;
-	padding-bottom:5px;
 }
 
 .item-b {
@@ -261,10 +83,14 @@ body {
 	text-align: center;
 }
 
-#Content p.noindent {
-	text-indent: 0em;
+#Content p.bullet { 
+	margin-left: 20px;
+	text-indent: 10px;
+	display: block;
 }
+#Content p.bullet::before { content: "• " }
 
+#Content p.noindent { text-indent: 0em; }
 #Content p.noindentitalic {
 	text-indent: 0em;
 	font-style: italic;
@@ -277,40 +103,20 @@ body {
 	padding: 0;
 }
 
-#Content p.overview > br {
-	margin-bottom:10px;
-}
-
-/* Relationship Text */
-#Content p.kin {
-	line-height: 1.5em;
-	margin: 0px;
-	padding-top: 5px;
-	text-indent: 0.0em;
-}
-
-#Content p.kin::before {
-	content: "⛆ "
-}
-
-/* Trivia Text */
-#Content p.flush {
-	line-height: 1.5em;
-	margin: 0px;
-	padding-top: 5px;
-	text-indent: 0.1em;
-}
-
-#Content p.flush:nth-child(even) {
-	color: rgb(141, 141, 141);
-}
-
-#Content p.flush::before {
-	content: "⛆ "
-}
-
 /* Large, Colored Text */
 #Content h1 {
+	text-align:center;
+	font-family: "Cormorant Unicase", serif;
+	color: #9d1be9;
+	font-size: calc(30px + 0.3vw);
+	font-weight: 100;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	line-height: 1.3;
+	font-variant: small-caps;
+}
+
+#Content h2 {
 	font-family: "Cormorant Unicase", serif;
 	color: #9d1be9;
 	font-size: calc(16px + 0.3vw);
@@ -323,38 +129,6 @@ body {
 	font-variant: small-caps;
 }
 
-#Content h1.reduced {
-	font-size: 1.2em;
-	font-style: italic;
-}
-
-/* Content Text */
-#Content h2 {
-	font-family: "Source Sans Pro", sans-serif;
-	color: rgb(226, 226, 226);
-	font-size: 1em;
-	font-weight: 100;
-	letter-spacing: 1px;
-	text-indent: 0.0em;
-	line-height: 1.0;
-	margin: 0px;
-	padding-top: 3px;
-}
-
-/* Subtitle Text */
-#Content h3 {
-	font-family: "Source Sans Pro", sans-serif;
-	color: #b7b7b7;
-	font-size: 1.0em;
-	font-weight: 300;
-	font-style: italic;
-	margin-top: -5px;
-	letter-spacing: 2px;
-	line-height: 1.6;
-	padding-bottom: 20;
-	padding-left: 0px;
-}
-
 #Content p.quotebox {
 	margin: 15px 15px 0px 0px;
 	padding: 5px 5px 10px 10px;
@@ -362,6 +136,7 @@ body {
 	border-bottom: 2px solid #b353eb;
 	page-break-inside: avoid;
 	background-color: #551672;
+	overflow: hidden;
 	text-indent: 0em;
 }
 
@@ -405,8 +180,9 @@ body {
 
 @media all and (max-width:680px) {
 	#Content > div { width: 90% }
-	.graftling { width: 90%; }
+	.graftling_grid { width: 90%; }
 	.grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+	#graftling_img { display:none; }
 }
 
 /* Tables */
@@ -443,50 +219,11 @@ table {
   transform: translateY(4px);
 }
 
-/* Blockquote */
-blockquote.main {
-	background: #1d1d1d;
-	border-left: 10px solid #9d1be9;
-	margin: 1.5em 10px;
-	font-size: 1.0em;
-	padding: 0.5em 10px 0.5em;
-  }
-
 /* Horizontal Rule */
 hr.boyhowdy {
 	border-top: 1px solid #9d1be9;
 	margin: 0px 0px 5px 0px;
 	padding: 0px;
-}
-
-/* General Media */
-.audioflex-container {
-	padding: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: left;
-	list-style: none;
-}
-
-.audioflex-item {
-	width: 25%;
-	padding: 10px;
-}
-
-@media all and (max-width:680px) {
-	.audioflex-item {
-		width:100%;
-	}
-}
-
-audio {
-	width:100%;
-}
-
-
-video { 
-	max-width: 100% !important;
-  	height: auto !important;
 }
 
 /* Game Over */
