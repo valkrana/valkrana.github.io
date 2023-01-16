@@ -183,6 +183,7 @@ body {
 	.graftling_grid { width: 90%; }
 	.grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
 	#graftling_img { display:none; }
+	#credit { display:none; }
 }
 
 /* Tables */
