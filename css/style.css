@@ -367,14 +367,13 @@ video { max-width: 100% !important;	height: auto !important; }
 	right:0;
 	z-index:1;
 }
-
 #bonescape {
+	width:15%;
 	position:fixed;
-	bottom:5px;
-	left:5px;
+	bottom:-10px;
 	z-index:1;
+	object-fit:none;
 }
-
 @media all and (max-width:1650px) {
 	#gameover { display: none; }
 	#bonescape { display: none; }
