@@ -35,7 +35,8 @@ function keepsake() {
 //Footer
 var foot =	'<a href="#Top"><p style="font-family: \'Caladea\', serif;">Return to Top</a><br><br>' +
 			'<img src="css/valksewally_accordion101.gif" title="Animation courtesy @Sewally2 on Twitter."><br>' +
-			'<p style="margin-top: -10px; font-family: \'Caladea\', serif;">Valkrana by <a href="http://www.twitter.com/ActualSailorCat" target="_blank">SailorCat</a>';
+			'<p style="margin-top: -10px; font-family: \'Caladea\', serif;">Valkrana by <a href="http://www.twitter.com/ActualSailorCat" target="_blank">Sailor Cat</a>' +
+			'<p style="margin-top: -10px; font-family: \'Caladea\', serif;">Animation by <a href="http://www.twitter.com/Sewally2" target="_blank">Sewally</a>';
 
 function footer() {  
     document.getElementById('footer').innerHTML = foot
