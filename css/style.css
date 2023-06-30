@@ -378,8 +378,8 @@ video { max-width: 100% !important;	height: auto !important; }
 	object-fit:none;
 }
 @media all and (max-width:1650px) {
-	#gameover { display: none; }
-	#bonescape { display: none; }
+	#gameover { display:none; }
+	#bonescape { display:none; }
 }
 
 /* Footer */
