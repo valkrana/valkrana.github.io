@@ -6,7 +6,6 @@ var navs =	'<a href="index.html" id="Top" style="font-family: \'Caladea\', serif
 			'<a href="cantrips.html" style="font-family: \'Caladea\', serif;">Cantrips</a>' +
 			'<a href="guide.html" style="font-family: \'Caladea\', serif;">Art Guide</a>' +
 			'<a href="graftling.html" style="font-family: \'Caladea\', serif;">Graftling</a>' +
-			'<a href="spellbook.html" style="font-family: \'Caladea\', serif;">Spellbook</a>' +
 			'<a href="https://discord.gg/UYwWj9jNUP" style="font-family: \'Caladea\', serif;" target="_blank">Discord</a>';
 
 function navigation() {  
