@@ -285,6 +285,10 @@ body {
 	font-variant: small-caps;
 }
 
+#Content h1.altclr {
+	color:#b984ea;
+}
+
 #Content h1.reduced {
 	font-size: calc(16px + 0.3vw);
 	font-style: italic;
@@ -323,6 +327,10 @@ body {
 	line-height: 1.6;
 	padding-bottom: 20;
 	padding-left: 0px;
+}
+
+#Content h3.paddles {
+	padding-bottom: 0;
 }
 
 /* Blockquote */
