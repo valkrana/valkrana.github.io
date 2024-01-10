@@ -384,8 +384,10 @@ video { max-width: 100% !important;	height: auto !important; }
 
 /* Game Over, Bonescape */
 #gameover {
+	width:15%;
 	position:fixed;
-	bottom:0;
+	padding-left: 10px;
+	bottom:20px;
 	right:0;
 	z-index:1;
 }
