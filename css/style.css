@@ -171,7 +171,7 @@ body {
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-	grid-gap: 2rem;
+	grid-gap: 1.5rem;
 }
 .grid > div { margin: 0 auto; }
 
