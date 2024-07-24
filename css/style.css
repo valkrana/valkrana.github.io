@@ -179,7 +179,8 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+	/*grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));*/
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 2rem;
 }
 .grid_mods > div { margin: 0 auto; }
@@ -207,8 +208,17 @@ body {
 	width:100%;
 }
 
+.item-c {
+	grid-column: span 3;
+	width:100%;
+}
+
 @media all and (max-width:999px) {
 	.item-b {
+	grid-row-start: auto;
+	grid-column: auto;
+	}
+	.item-c {
 	grid-row-start: auto;
 	grid-column: auto;
 	}
