@@ -225,6 +225,7 @@ body {
 	.grid { row-gap: 0rem; }
 	.grid_mods { row-gap: 0rem; }
 	#gameover { opacity: 0%; }
+	#sigma { opacity: 0%; }
 	#bonescape { opacity: 0%; }
 }
 
@@ -401,6 +402,13 @@ video { max-width: 100% !important;	height: auto !important; }
 	right:0;
 	z-index:1;
 }
+#sigma {
+	width:14%;
+	position:fixed;
+	bottom:0px;
+	left:0;
+	z-index:1;
+}
 #bonescape {
 	width:15%;
 	position:fixed;
@@ -410,6 +418,7 @@ video { max-width: 100% !important;	height: auto !important; }
 }
 @media all and (max-width:1650px) {
 	#gameover { display:none; }
+	#sigma { display:none; }
 	#bonescape { display:none; }
 }
 
