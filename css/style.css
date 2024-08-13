@@ -179,8 +179,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	display: grid;
-	/*grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));*/
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 	grid-gap: 2rem;
 }
 .grid_mods > div { margin: 0 auto; }
