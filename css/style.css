@@ -61,7 +61,7 @@ body {
 	text-align: center;
 }
 
-#CharSheet a, a:visited, a:hover { color: #fc49b2;	text-decoration: none; }
+#CharSheet a, a:visited, a:hover { color: #2c6bdd;	text-decoration: none; }
 
 .sheetflex-container {
 	width:100%;
@@ -252,7 +252,7 @@ body {
 	#Content > div { width: 90%; }
 }
 
-#Content a { color:#fc49b2; }
+#Content a { color:#377af2; }
 #Content p {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: calc(13px + 0.1vw);
@@ -442,7 +442,7 @@ video { max-width: 100% !important;	height: auto !important; }
 	line-height: 1;
 }
 
-#footer a, a:visited, a:hover { color: #fc49b2; text-decoration: underline; }
+#footer a, a:visited, a:hover { color: #377af2; text-decoration: underline; }
 
 /* Mobile */
 @viewport {
