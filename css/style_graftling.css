@@ -57,7 +57,7 @@ body {
 }
 
 #Content a {
-	color:#377af2;
+	color:#9292fd;
 }
 
 #Content p {
@@ -268,12 +268,12 @@ hr.boyhowdy {
 }
 
 #footer a, a:visited {
-	color: #377af2;
+	color: #9292fd;
 	text-decoration: underline;
 }
 
 #footer a:hover {
-	color: #377af2;
+	color: #9292fd;
 }
 
 /* Mobile */
