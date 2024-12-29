@@ -229,7 +229,7 @@ body {
 
 @media all and (max-width:700px) {
 	.grid {	grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr)); }
-	.grid_mods { grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr)); }
+	.grid_mods { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
 	.item-b { grid-row-start: auto; grid-column: auto; }
 	#CharacterArt { content:url("../img/valkrana_nuyums_neutral.webp"); }
 }
