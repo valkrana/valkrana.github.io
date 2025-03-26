@@ -107,7 +107,7 @@ body {
 #Content h1 {
 	text-align:center;
 	font-family: "Cormorant Unicase", serif;
-	color: #9d1be9;
+	color: #965eb9;
 	font-size: calc(30px + 0.3vw);
 	font-weight: 100;
 	margin: 0 auto;
@@ -118,7 +118,7 @@ body {
 
 #Content h2 {
 	font-family: "Cormorant Unicase", serif;
-	color: #9d1be9;
+	color: #965eb9;
 	font-size: calc(16px + 0.3vw);
 	font-weight: 100;
 	margin-top: 0px;
@@ -135,7 +135,7 @@ body {
 	border-top: 2px solid #b353eb;
 	border-bottom: 2px solid #b353eb;
 	page-break-inside: avoid;
-	background-color: #551672;
+	background-color: #502c66;
 	overflow: hidden;
 	text-indent: 0em;
 }
@@ -150,12 +150,12 @@ body {
 
 #Content p.oddl {
 	text-align: center;
-	background-color: #9d1be9;
+	background-color: #502c66;
 	text-indent: 0em;
 }
 
 #Content p.oddr {
-	background-color: #9d1be9;
+	background-color: #502c66;
 	text-indent: 0.5em;
 }
 
@@ -198,7 +198,7 @@ table {
 }
 
 .baton {
-    background-color: #9d1be9;
+    background-color: #502c66;
     display:inline-block;
     padding:0.2em 1em;
     margin:0;
@@ -222,7 +222,7 @@ table {
 
 /* Horizontal Rule */
 hr.boyhowdy {
-	border-top: 1px solid #9d1be9;
+	border-top: 1px solid #502c66;
 	margin: 0px 0px 5px 0px;
 	padding: 0px;
 }
