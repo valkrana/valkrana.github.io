@@ -12,7 +12,7 @@ body {
 #Buffer {
 	width: 100%;
 	margin: 0 auto;
-	background-color: #551672;
+	background-color: #502c66;
 	display:flex;
 	position:relative;
 	z-index:2;
@@ -125,7 +125,7 @@ body {
 	font-size: calc(32px + 0.5vw);
 	letter-spacing: 0.08vw;
 	font-weight:400;
-	color:#9d1be9;
+	color:#713d91;
 	padding: 10px 10px 10px 10px;
 	margin: 0 auto;
 }
@@ -294,7 +294,7 @@ body {
 /* Large, Colored Text */
 #Content h1 {
 	font-family: "Times New Roman", serif;
-	color: #9d1be9;
+	color: #965eb9;
 	font-size: calc(19px + 0.3vw);
 	font-weight: 100;
 	margin-top: 0px;
@@ -306,7 +306,7 @@ body {
 }
 
 #Content h1.altclr {
-	color:#b984ea;
+	color:#c18af5;
 }
 
 #Content h1.reduced {
@@ -319,7 +319,13 @@ body {
 	font-size: calc(16px + 0.3vw);
 	font-style: italic;
 	line-height: 1;
-	color:#b984ea;
+	color:#c18af5;
+}
+
+#Content h1.reducedaltnotalic {
+	font-size: calc(16px + 0.3vw);
+	line-height: 1;
+	color:#c18af5;
 }
 
 /* Content Text */
