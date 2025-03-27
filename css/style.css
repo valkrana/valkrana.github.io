@@ -279,7 +279,6 @@ body {
 	letter-spacing: 1px;
 	line-height: 1.4;
 	text-indent: 1.0em;
-	padding-bottom: 5px;
 	margin: 0px;
 	text-align: center;
 }
@@ -332,6 +331,12 @@ body {
 	font-style: italic;
 	line-height: 1;
 	color:#c18af5;
+}
+
+#Content h1.middle {
+	text-align: center;
+	font-size: calc(30px + 0.3vw);
+	display:block;
 }
 
 #Content h1.reducedaltnotalic {
