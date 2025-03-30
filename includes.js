@@ -4,7 +4,7 @@ var navs =	'<a href="index.html" id="Top" style="font-family: \'Caladea\', serif
 			'<a href="about.html" style="font-family: \'Caladea\', serif;">About</a>' +
 			'<a href="voice.html" style="font-family: \'Caladea\', serif;">Voice</a>' +
 			'<a href="mods_bg2.html" style="font-family: \'Caladea\', serif;">Mods</a>' +
-			'<a href="spellbook.html" style="font-family: \'Caladea\', serif;">Spellbook</a>' +
+			'<a href="spellbook.html" style="font-family: \'Caladea\', serif;">Spells</a>' +
 			'<a href="graftling.html" style="font-family: \'Caladea\', serif;">Graftling</a>' +
 			'<a href="cantrips.html" style="font-family: \'Caladea\', serif;">Cantrips</a>' +
 			'<a href="guide.html" style="font-family: \'Caladea\', serif;">Art Guide</a>' +
