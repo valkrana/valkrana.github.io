@@ -299,7 +299,7 @@ body {
 	padding-top: 5px;
 	text-indent: 0.1em;
 }
-#Content p.flush:nth-child(even) { color: rgb(141, 141, 141); }
+#Content p.flush:nth-child(even) { color:#b3a1a5 }
 #Content p.flush::before { content: "⛆ " }
 
 /* Large, Colored Text */
