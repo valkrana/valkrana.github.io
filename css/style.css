@@ -200,6 +200,11 @@ body {
 	padding-bottom:5px;
 }
 
+.grid_img_normal {
+	object-fit:contain;
+	padding-bottom:5px;
+}
+
 .grid_vid { border-radius: 10px; }
 
 .item-b {
@@ -379,15 +384,30 @@ body {
 /* Blockquote */
 blockquote.main {
 	background: #1d1d1d;
-	border-left: 10px solid #9d1be9;
+	border-left: 10px solid #713d91;
 	margin: 1.5em 10px;
 	font-size: calc(14px + 0.1vw);
 	padding: 0.5em 10px 0.5em;
   }
 
+blockquote.sm {
+background: #1d1d1d;
+border-left: 10px solid #713d91;
+margin: 1.5em 10px;
+font-size: calc(12px + 0.1vw);
+padding: 0.5em 10px 0.5em;
+font-family: "Source Sans Pro", sans-serif;
+color: #a7a7a7;
+letter-spacing: 1px;
+line-height: 1.5;
+margin-top: 0.2em;
+text-indent: 0em;
+font-style: italic;
+}
+
 /* Horizontal Rule */
 hr.boyhowdy {
-	border-top: 1px solid #9d1be9;
+	border-top: 1px solid #713d91;
 	margin: 0px 0px 5px 0px;
 	padding: 0px;
 }
