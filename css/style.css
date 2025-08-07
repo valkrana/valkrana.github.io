@@ -201,7 +201,7 @@ body {
 }
 
 .grid_img_normal {
-	object-fit:contain;
+	object-fit:scale-down;
 	padding-bottom:5px;
 }
 
