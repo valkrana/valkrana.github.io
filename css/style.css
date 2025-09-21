@@ -288,6 +288,21 @@ body {
 	text-align: center;
 }
 
+#Content p.options2 {
+	font-family: "Caladea", serif;
+	color: rgb(226, 226, 226);
+	font-size: 1em;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	text-indent: 1.0em;
+	margin: 0px;
+	text-align: center;
+}
+
+#Content p.options2 a {
+	color: #b3a1a5;
+}
+
 /* Relationship Text */
 #Content p.kin {
 	line-height: 1.5em;
