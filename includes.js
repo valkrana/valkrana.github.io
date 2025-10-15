@@ -39,7 +39,7 @@ function keepsake() {
 var foot =	'<a href="#Top"><p style="font-family: \'Caladea\', serif;">Return to Top</a><br><br>' +
 			'<img src="css/valksewally_accordion101.gif" title="Animation courtesy @Sewally2 on Twitter."><br>' +
 			'<p style="margin-top: -10px; font-family: \'Caladea\', serif;">Valkrana by <a href="https://steamcommunity.com/id/sailorcat" target="_blank">Sailor Cat</a>' +
-			'<p style="margin-top: -10px; font-family: \'Caladea\', serif;">Character Portraits by <a href="https://www.pixiv.net/en/users/7499" target="_blank">Nyama</a>' +
+			'<p style="margin-top: -10px; font-family: \'Caladea\', serif;">Website Character Portraits by <a href="https://www.pixiv.net/en/users/7499" target="_blank">Nyama</a>' +
 			'<p style="margin-top: -10px; font-family: \'Caladea\', serif;">Footer Animation by <a href="https://www.pixiv.net/en/users/11065143" target="_blank">Sewally</a>';
 
 function footer() {  
