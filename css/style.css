@@ -430,7 +430,8 @@ hr.boyhowdy {
 /* General Media */
 audio { width:100%; }
 video { max-width: 100% !important;	height: auto !important; }
-.cantrip_media { padding-top: 20px; object-fit: contain !important; max-width: 100%; max-height: 100%; display:block;}
+.cantrip_media { padding-top: 20px; object-fit: contain !important; max-width: 100%; max-height: 100%; display:block; }
+.mod_video { padding-top: 20px; object-fit: contain !important; max-width: 100%; max-height: 100%; display:block; width: 65%; margin: 0 auto; }
 
 .audioflex-container {
 	padding: 10px;
@@ -488,6 +489,7 @@ video { max-width: 100% !important;	height: auto !important; }
 	#sigma { display:none; }
 	#bonescape { display:none; }
 	#saturnine { display:none; }
+	.mod_video { width:100%; }
 }
 
 /* Footer */
