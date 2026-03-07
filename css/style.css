@@ -119,6 +119,12 @@ body {
 	padding:12px;
 }
 
+#sheet_container img {
+	width:50%;
+	margin:10px auto;
+	display:block;
+}
+
 #sheet_content h1 {
 	text-align:center;
 	font-family: "Bangers", serif;
@@ -158,6 +164,7 @@ body {
 	.sheetflex-container { padding-top:0; }
 	.sheetflex { width:100%; }
 	.sheet-l { width:100%; }
+	#sheet_container img { width:75% }
 }
 
 /*
