@@ -120,7 +120,7 @@ body {
 }
 
 #sheet_container img {
-	width:50%;
+	width:30%;
 	margin:10px auto;
 	display:block;
 }
@@ -164,7 +164,7 @@ body {
 	.sheetflex-container { padding-top:0; }
 	.sheetflex { width:100%; }
 	.sheet-l { width:100%; }
-	#sheet_container img { width:75% }
+	#sheet_container img { width:50% }
 }
 
 /*
