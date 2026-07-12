@@ -177,7 +177,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 	gap: 2rem;
 }
 .grid > div { margin: 0 auto; }
